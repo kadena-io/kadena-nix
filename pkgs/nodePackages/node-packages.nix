@@ -1678,13 +1678,13 @@ let
         sha512 = "HLhSWOLRi875zjjMG/r+Nv0oCW8umGb0BgEhyX3dDX3egwZtB8PqLnjz3yedt8R5StBrzcg4aBpnh8UA9D1BoQ==";
       };
     };
-    "@jridgewell/resolve-uri-3.1.1" = {
+    "@jridgewell/resolve-uri-3.1.2" = {
       name = "_at_jridgewell_slash_resolve-uri";
       packageName = "@jridgewell/resolve-uri";
-      version = "3.1.1";
+      version = "3.1.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@jridgewell/resolve-uri/-/resolve-uri-3.1.1.tgz";
-        sha512 = "dSYZh7HhCDtCKm4QakX0xFpsRDqjjtZf/kjI/v3T3Nwt5r8/qz/M19F9ySyOqU94SXBmeG9ttTul+YnR4LOxFA==";
+        url = "https://registry.npmjs.org/@jridgewell/resolve-uri/-/resolve-uri-3.1.2.tgz";
+        sha512 = "bRISgCIjP20/tbWSPWMEi54QVPRZExkuD9lJL+UIxUKtwVJA8wW1Trb1jMs1RFXo1CBTNZ/5hpC9QvmKWdopKw==";
       };
     };
     "@jridgewell/set-array-1.1.2" = {
@@ -2587,13 +2587,13 @@ let
         sha512 = "pk2B1NWalF9toCRu6gjBzR69syFjP4Od8WRAX+0mmf9lAjCRicLOWc+ZrxZHx/0XRjotgkF9t6iaMJ+aXcOdZQ==";
       };
     };
-    "@types/node-20.11.17" = {
+    "@types/node-20.11.18" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "20.11.17";
+      version = "20.11.18";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-20.11.17.tgz";
-        sha512 = "QmgQZGWu1Yw9TDyAP9ZzpFJKynYNeOvwMJmaxABfieQoVoiVOS6MN1WSpqpRcbeA5+RW82kraAVxCCJg+780Qw==";
+        url = "https://registry.npmjs.org/@types/node/-/node-20.11.18.tgz";
+        sha512 = "ABT5VWnnYneSBcNWYSCuR05M826RoMyMSGiFivXGx6ZUIsXb9vn4643IEwkg2zbEOSgAiSogtapN2fgc4mAPlw==";
       };
     };
     "@types/node-fetch-2.6.11" = {
@@ -3253,13 +3253,13 @@ let
         sha512 = "b8um+L1RzM3WDSzvhm6gIz1yfTbBt6YTlcEKAvsmqCZZFw46z626lVj9j1yEPW33H5H+lBQpZMP1k8l+78Ha0A==";
       };
     };
-    "browserslist-4.22.3" = {
+    "browserslist-4.23.0" = {
       name = "browserslist";
       packageName = "browserslist";
-      version = "4.22.3";
+      version = "4.23.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/browserslist/-/browserslist-4.22.3.tgz";
-        sha512 = "UAp55yfwNv0klWNapjs/ktHoguxuQNGnOzxYmfnXIS+8AsRDZkSDxg7R1AX3GKzn078SBI5dzwzj/Yx0Or0e3A==";
+        url = "https://registry.npmjs.org/browserslist/-/browserslist-4.23.0.tgz";
+        sha512 = "QW8HiM1shhT2GuzkvklfjcKDiWFXHOeFCIA/huJPwHsslwcydgk7X+z2zXpEijP98UCY7HbubZt5J2Zgvf0CaQ==";
       };
     };
     "bser-2.1.1" = {
@@ -4045,13 +4045,13 @@ let
         sha512 = "WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==";
       };
     };
-    "electron-to-chromium-1.4.668" = {
+    "electron-to-chromium-1.4.670" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.668";
+      version = "1.4.670";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.668.tgz";
-        sha512 = "ZOBocMYCehr9W31+GpMclR+KBaDZOoAEabLdhpZ8oU1JFDwIaFY0UDbpXVEUFc0BIP2O2Qn3rkfCjQmMR4T/bQ==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.670.tgz";
+        sha512 = "hcijYOWjOtjKrKPtNA6tuLlA/bTLO3heFG8pQA6mLpq7dRydSWicXova5lyxDzp1iVJaYhK7J2OQlGE52KYn7A==";
       };
     };
     "emoji-regex-8.0.0" = {
@@ -7843,13 +7843,13 @@ let
         sha512 = "aoBAniQmmwtcKp/7BzsH8Cxzv8OL736p7v1ihGb5e9DJ9kTwGWHrQrVB5+lfVDzfGrdRzXch+ig7LHaY1JTOrg==";
       };
     };
-    "terser-5.27.0" = {
+    "terser-5.27.1" = {
       name = "terser";
       packageName = "terser";
-      version = "5.27.0";
+      version = "5.27.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/terser/-/terser-5.27.0.tgz";
-        sha512 = "bi1HRwVRskAjheeYl291n3JC4GgO/Ty4z1nVs5AAsmonJulGxpSektecnNedrwK9C7vpvVtcX3cw00VSLt7U2A==";
+        url = "https://registry.npmjs.org/terser/-/terser-5.27.1.tgz";
+        sha512 = "29wAr6UU/oQpnTw5HoadwjUZnFQXGdOfj0LjZ4sVxzqwHh/QVkvr7m8y9WoR4iN3FRitVduTc6KdjcW38Npsug==";
       };
     };
     "text-table-0.2.0" = {
@@ -8542,10 +8542,10 @@ in
   "@kadena/graph" = nodeEnv.buildNodePackage {
     name = "_at_kadena_slash_graph";
     packageName = "@kadena/graph";
-    version = "0.1.6";
+    version = "0.1.7";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@kadena/graph/-/graph-0.1.6.tgz";
-      sha512 = "C94YMzY6tGyKOcvIvJfT1GpqUonOXZPNhBvXgONC28ZevB/xkE5N0jT/B23eid+XpUlI8JzqkULUeIM7agbo6Q==";
+      url = "https://registry.npmjs.org/@kadena/graph/-/graph-0.1.7.tgz";
+      sha512 = "5V5y3yde3PKYOEacqFWvIWsXLMZj5iFXziRstBNPoeDG+iVXmrem5grJ/GgFFVI2JMnzYJpdbkbcanB2/DEWHQ==";
     };
     dependencies = [
       sources."@aashutoshrathi/word-wrap-1.2.6"
@@ -8829,7 +8829,7 @@ in
       sources."@jest/schemas-29.6.3"
       sources."@jest/types-29.6.3"
       sources."@jridgewell/gen-mapping-0.3.3"
-      sources."@jridgewell/resolve-uri-3.1.1"
+      sources."@jridgewell/resolve-uri-3.1.2"
       sources."@jridgewell/set-array-1.1.2"
       sources."@jridgewell/source-map-0.3.5"
       sources."@jridgewell/sourcemap-codec-1.4.15"
@@ -9035,7 +9035,7 @@ in
       sources."@types/istanbul-lib-coverage-2.0.6"
       sources."@types/istanbul-lib-report-3.0.3"
       sources."@types/istanbul-reports-3.0.4"
-      sources."@types/node-20.11.17"
+      sources."@types/node-20.11.18"
       sources."@types/node-fetch-2.6.11"
       sources."@types/stack-utils-2.0.3"
       sources."@types/tunnel-0.0.3"
@@ -9165,7 +9165,7 @@ in
       sources."blakejs-1.2.1"
       sources."brace-expansion-1.1.11"
       sources."braces-3.0.2"
-      sources."browserslist-4.22.3"
+      sources."browserslist-4.23.0"
       sources."bser-2.1.1"
       sources."buffer-5.7.1"
       sources."buffer-equal-constant-time-1.0.1"
@@ -9278,7 +9278,7 @@ in
       sources."eastasianwidth-0.2.0"
       sources."ecdsa-sig-formatter-1.0.11"
       sources."ee-first-1.1.1"
-      sources."electron-to-chromium-1.4.668"
+      sources."electron-to-chromium-1.4.670"
       sources."emoji-regex-8.0.0"
       sources."encodeurl-1.0.2"
       sources."encoding-0.1.13"
@@ -9809,7 +9809,7 @@ in
         ];
       })
       sources."temp-dir-2.0.0"
-      (sources."terser-5.27.0" // {
+      (sources."terser-5.27.1" // {
         dependencies = [
           sources."commander-2.20.3"
         ];
