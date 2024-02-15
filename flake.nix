@@ -5,20 +5,25 @@
     flake-utils.url = "github:numtide/flake-utils";
   };
   outputs = inputs: inputs.flake-utils.lib.eachDefaultSystem (system:
-    let pkgs = inputs.nixpkgs.legacyPackages.${system};
-        graph = import pkgs/graph {
+    let inherit (inputs) self;
+        pkgs = inputs.nixpkgs.legacyPackages.${system};
+        nodePackages = import "${self}/pkgs/nodePackages" {
           inherit pkgs system;
+          nodejs = pkgs.nodejs;
+        };
+        graph = import pkgs/graph {
+          inherit pkgs system nodePackages;
         };
     in {
       packages = {
         kadena-graph = graph.kadena-graph;
       };
       apps = {
-        update-graph = {
+        update-node-packages = {
           type = "app";
-          program = (pkgs.writeShellScript "update-graph" ''
-            cd pkgs/graph
-            ${graph.update}
+          program = (pkgs.writeShellScript "update-node-packages" ''
+            cd pkgs/nodePackages
+            ${pkgs.node2nix}/bin/node2nix -i packages.json
           '').outPath;
         };
       };
