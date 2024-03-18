@@ -1,0 +1,28 @@
+http://:3000 {
+	@uWebSockets path /uWebSockets.js
+	respond @uWebSockets ` {
+		"_id": "uWebSockets.js",
+		"_rev": "1-fake",
+		"name": "uWebSockets.js",
+		"description": "Fake empty package for uWebSockets.js to satisfy node2nix.",
+		"dist-tags": {
+			"latest": "0.2.0"
+		}		,
+		"versions": {
+			"0.2.0": {
+				"name": "uWebSockets.js",
+				"version": "fake-version",
+				"description": "Fake empty package to satisfy node2nix.",
+				"dist": {
+					"shasum": "fake-shasum",
+					"tarball": "http://localhost:3000/fake.tgz"
+				}
+			}
+		}
+	}	` 200
+	header @uWebSockets Content-Type application/json
+
+	reverse_proxy https://registry.npmjs.org {
+		header_up Host {http.reverse_proxy.upstream.hostport}
+	}
+}

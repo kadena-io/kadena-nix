@@ -23,7 +23,7 @@
           type = "app";
           program = (pkgs.writeShellScript "update-node-packages" ''
             cd pkgs/nodePackages
-            ${pkgs.node2nix}/bin/node2nix -i packages.json
+            ${nodePackages.update}
           '').outPath;
         };
       };
