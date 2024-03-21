@@ -52,6 +52,7 @@ let
     MIGRATIONS=lib/node_modules/@kadena/graph/cwd-extra-migrations
     mkdir -p $out/$MIGRATIONS
     cp -r ${kadena-graph}/$MIGRATIONS/* $out/$MIGRATIONS
+    ln -s $MIGRATIONS $out/cwd-extra-migrations
   '';
 in {
   inherit nodePackages kadena-graph kadena-graph-bundle;
