@@ -35,19 +35,17 @@ let
     cd ..
     esbuild ./dist/index.d.ts --bundle --outfile=$out/bin/kadena-graph --format=cjs --platform=node
 
-    prisma_client=lib/node_modules/@kadena/graph/node_modules/@prisma
-    mkdir -p $out/$prisma_client
-    cp -r ${kadena-graph}/$prisma_client/* $out/$prisma_client
+    remove-references-to -t ${kadena-graph} $out/bin/kadena-graph
+
     substituteInPlace $out/bin/kadena-graph \
-      --replace ${kadena-graph}/$prisma_client $out/$prisma_client
+      --replace "/usr/bin/env node" ${pkgs.nodejs-slim}/bin/node
 
     wrapProgram $out/bin/kadena-graph \
       --set PRISMA_SCHEMA_ENGINE_BINARY "${prisma-engines}/bin/schema-engine" \
       --set PRISMA_QUERY_ENGINE_BINARY "${prisma-engines}/bin/query-engine" \
       --set PRISMA_QUERY_ENGINE_LIBRARY "${prisma-engines}/lib/libquery_engine.node" \
       --set PRISMA_INTROSPECTION_ENGINE_BINARY "${prisma-engines}/bin/introspection-engine" \
-      --set PRISMA_FMT_BINARY "${prisma-engines}/bin/prisma-fmt" \
-      --prefix PATH : ${pkgs.nodejs-slim}/bin
+      --set PRISMA_FMT_BINARY "${prisma-engines}/bin/prisma-fmt"
 
     mkdir -p $out/lib/node_modules/@kadena/graph/
     cp -r ${kadena-graph}/lib/node_modules/@kadena/graph/cwd-extra-migrations $out/lib/node_modules/@kadena/graph/
