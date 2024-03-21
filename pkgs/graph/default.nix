@@ -44,6 +44,9 @@ let
       --set PRISMA_INTROSPECTION_ENGINE_BINARY "${prisma-engines}/bin/introspection-engine" \
       --set PRISMA_FMT_BINARY "${prisma-engines}/bin/prisma-fmt" \
       --prefix PATH : ${pkgs.nodejs-slim}/bin
+
+    mkdir -p $out/lib/node_modules/@kadena/graph/
+    cp -r ${kadena-graph}/lib/node_modules/@kadena/graph/cwd-extra-migrations $out/lib/node_modules/@kadena/graph/
   '';
 in {
   inherit nodePackages kadena-graph kadena-graph-bundle;
