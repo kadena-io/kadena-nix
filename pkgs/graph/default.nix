@@ -37,8 +37,8 @@ let
     GRAPH="kadena-graph/lib/node_modules/@kadena/graph/"
     for dir in db devnet utils services; do ln -s ../src/$dir "$GRAPH/node_modules/@$dir"; done
 
-    ( cd "$GRAPH" && \
-      esbuild dist/index.d.ts --bundle --outfile=$out/bin/kadena-graph --format=cjs --platform=node \
+    ( cd "$GRAPH" &&
+      esbuild dist/index.d.ts --bundle --outfile=$out/bin/kadena-graph --format=cjs --platform=node
     )
 
     remove-references-to -t ${kadena-graph} $out/bin/kadena-graph
