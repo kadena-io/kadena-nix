@@ -35,7 +35,11 @@ let
     cd ..
     esbuild ./dist/index.d.ts --bundle --outfile=$out/bin/kadena-graph --format=cjs --platform=node
 
-    remove-references-to -t ${kadena-graph} $out/bin/kadena-graph
+    prisma_client=lib/node_modules/@kadena/graph/node_modules/@prisma/client
+    mkdir -p $out/$prisma_client
+    cp -r ${kadena-graph}/$prisma_client/* $out/$prisma_client
+    substituteInPlace $out/bin/kadena-graph \
+      --replace ${kadena-graph}/$prisma_client $out/$prisma_client
 
     wrapProgram $out/bin/kadena-graph \
       --set PRISMA_SCHEMA_ENGINE_BINARY "${prisma-engines}/bin/schema-engine" \
