@@ -16,7 +16,7 @@
         };
     in {
       packages = {
-        inherit (graph) kadena-graph kadena-graph-bundle;
+        inherit (graph) kadena-graph kadena-graph-unbundled;
       };
       apps = {
         update-node-packages = {

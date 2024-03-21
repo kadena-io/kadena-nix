@@ -5,7 +5,7 @@
 }:
 let
   prisma-engines = pkgs.prisma-engines;
-  kadena-graph = nodePackages."@kadena/graph".overrideDerivation (attrs: {
+  kadena-graph-unbundled = nodePackages."@kadena/graph".overrideDerivation (attrs: {
     buildInputs = attrs.buildInputs ++ [pkgs.prisma-engines pkgs.makeWrapper];
     PRISMA_SCHEMA_ENGINE_BINARY="${prisma-engines}/bin/schema-engine";
     PRISMA_QUERY_ENGINE_BINARY="${prisma-engines}/bin/query-engine";
@@ -27,33 +27,38 @@ let
     cp -r ${prisma-engines}/lib $out/lib
   '';
 
-  kadena-graph-bundle = pkgs.runCommand "kadena-graph" {
+  kadena-graph = pkgs.stdenv.mkDerivation rec {
     buildInputs = [pkgs.esbuild pkgs.makeWrapper pkgs.removeReferencesTo];
-  } ''
-    mkdir -p $out
-    cp -r ${kadena-graph} kadena-graph
-    chmod -R +w kadena-graph
+    name = "kadena-graph-${version}";
+    version = kadena-graph-unbundled.version;
+    enableParallelBuilding = true;
+    passAsFile = [ "buildCommand" ];
+    buildCommand = ''
+      mkdir -p $out
+      cp -r ${kadena-graph-unbundled} kadena-graph
+      chmod -R +w kadena-graph
 
-    GRAPH="kadena-graph/lib/node_modules/@kadena/graph/"
-    for dir in db devnet utils services; do ln -s ../src/$dir "$GRAPH/node_modules/@$dir"; done
+      GRAPH="kadena-graph/lib/node_modules/@kadena/graph/"
+      for dir in db devnet utils services; do ln -s ../src/$dir "$GRAPH/node_modules/@$dir"; done
 
-    ( cd "$GRAPH" &&
-      esbuild dist/index.d.ts --bundle --outfile=$out/bin/kadena-graph --format=cjs --platform=node
-    )
+      ( cd "$GRAPH" &&
+        esbuild dist/index.d.ts --bundle --outfile=$out/bin/kadena-graph --format=cjs --platform=node
+      )
 
-    remove-references-to -t ${kadena-graph} $out/bin/kadena-graph
+      remove-references-to -t ${kadena-graph-unbundled} $out/bin/kadena-graph
 
-    substituteInPlace $out/bin/kadena-graph \
-      --replace "/usr/bin/env node" ${pkgs.nodejs-slim}/bin/node
+      substituteInPlace $out/bin/kadena-graph \
+        --replace "/usr/bin/env node" ${pkgs.nodejs-slim}/bin/node
 
-    wrapProgram $out/bin/kadena-graph \
-      --set PRISMA_QUERY_ENGINE_LIBRARY "${prisma-slim}/lib/libquery_engine.node" \
+      wrapProgram $out/bin/kadena-graph \
+        --set PRISMA_QUERY_ENGINE_LIBRARY "${prisma-slim}/lib/libquery_engine.node" \
 
-    MIGRATIONS=lib/node_modules/@kadena/graph/cwd-extra-migrations
-    mkdir -p $out/$MIGRATIONS
-    cp -r ${kadena-graph}/$MIGRATIONS/* $out/$MIGRATIONS
-    ln -s $MIGRATIONS $out/cwd-extra-migrations
-  '';
+      MIGRATIONS=lib/node_modules/@kadena/graph/cwd-extra-migrations
+      mkdir -p $out/$MIGRATIONS
+      cp -r ${kadena-graph-unbundled}/$MIGRATIONS/* $out/$MIGRATIONS
+      ln -s $MIGRATIONS $out/cwd-extra-migrations
+    '';
+  };
 in {
-  inherit nodePackages kadena-graph kadena-graph-bundle;
+  inherit nodePackages kadena-graph kadena-graph-unbundled;
 }
