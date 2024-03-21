@@ -5,6 +5,12 @@
 }:
 let
   prisma-engines = pkgs.prisma-engines;
+  prisma-slim = pkgs.runCommand "prisma-slim" {} ''
+    mkdir -p $out/bin
+
+    cp -r ${prisma-engines}/lib $out/lib
+    cp -r ${prisma-engines}/bin/query-engine $out/bin
+  '';
   kadena-graph = nodePackages."@kadena/graph".overrideDerivation (attrs: {
     buildInputs = attrs.buildInputs ++ [pkgs.prisma-engines pkgs.makeWrapper];
     PRISMA_SCHEMA_ENGINE_BINARY="${prisma-engines}/bin/schema-engine";
@@ -41,11 +47,8 @@ let
       --replace "/usr/bin/env node" ${pkgs.nodejs-slim}/bin/node
 
     wrapProgram $out/bin/kadena-graph \
-      --set PRISMA_SCHEMA_ENGINE_BINARY "${prisma-engines}/bin/schema-engine" \
-      --set PRISMA_QUERY_ENGINE_BINARY "${prisma-engines}/bin/query-engine" \
-      --set PRISMA_QUERY_ENGINE_LIBRARY "${prisma-engines}/lib/libquery_engine.node" \
-      --set PRISMA_INTROSPECTION_ENGINE_BINARY "${prisma-engines}/bin/introspection-engine" \
-      --set PRISMA_FMT_BINARY "${prisma-engines}/bin/prisma-fmt"
+      --set PRISMA_QUERY_ENGINE_BINARY "${prisma-slim}/bin/query-engine" \
+      --set PRISMA_QUERY_ENGINE_LIBRARY "${prisma-slim}/lib/libquery_engine.node" \
 
     mkdir -p $out/lib/node_modules/@kadena/graph/
     cp -r ${kadena-graph}/lib/node_modules/@kadena/graph/cwd-extra-migrations $out/lib/node_modules/@kadena/graph/
