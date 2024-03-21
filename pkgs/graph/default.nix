@@ -5,10 +5,6 @@
 }:
 let
   prisma-engines = pkgs.prisma-engines;
-  prisma-slim = pkgs.runCommand "prisma-slim" {} ''
-    mkdir -p $out
-    cp -r ${prisma-engines}/lib $out/lib
-  '';
   kadena-graph = nodePackages."@kadena/graph".overrideDerivation (attrs: {
     buildInputs = attrs.buildInputs ++ [pkgs.prisma-engines pkgs.makeWrapper];
     PRISMA_SCHEMA_ENGINE_BINARY="${prisma-engines}/bin/schema-engine";
@@ -25,19 +21,25 @@ let
         --set PRISMA_FMT_BINARY "${prisma-engines}/bin/prisma-fmt"
     '';
   });
+
+  prisma-slim = pkgs.runCommand "prisma-slim" {} ''
+    mkdir -p $out
+    cp -r ${prisma-engines}/lib $out/lib
+  '';
+
   kadena-graph-bundle = pkgs.runCommand "kadena-graph" {
     buildInputs = [pkgs.esbuild pkgs.makeWrapper pkgs.removeReferencesTo];
   } ''
     mkdir -p $out
-    cp -r ${kadena-graph} drv
-    chmod -R +w drv
-    cd drv/lib/node_modules/@kadena/graph/node_modules/
-    ln -s ../src/db @db
-    ln -s ../src/devnet/ @devnet
-    ln -s ../src/utils/ @utils
-    ln -s ../src/services/ @services
-    cd ..
-    esbuild ./dist/index.d.ts --bundle --outfile=$out/bin/kadena-graph --format=cjs --platform=node
+    cp -r ${kadena-graph} kadena-graph
+    chmod -R +w kadena-graph
+
+    GRAPH="kadena-graph/lib/node_modules/@kadena/graph/"
+    for dir in db devnet utils services; do ln -s ../src/$dir "$GRAPH/node_modules/@$dir"; done
+
+    ( cd "$GRAPH" && \
+      esbuild dist/index.d.ts --bundle --outfile=$out/bin/kadena-graph --format=cjs --platform=node \
+    )
 
     remove-references-to -t ${kadena-graph} $out/bin/kadena-graph
 
@@ -47,8 +49,9 @@ let
     wrapProgram $out/bin/kadena-graph \
       --set PRISMA_QUERY_ENGINE_LIBRARY "${prisma-slim}/lib/libquery_engine.node" \
 
-    mkdir -p $out/lib/node_modules/@kadena/graph/
-    cp -r ${kadena-graph}/lib/node_modules/@kadena/graph/cwd-extra-migrations $out/lib/node_modules/@kadena/graph/
+    MIGRATIONS=lib/node_modules/@kadena/graph/cwd-extra-migrations
+    mkdir -p $out/$MIGRATIONS
+    cp -r ${kadena-graph}/$MIGRATIONS/* $out/$MIGRATIONS
   '';
 in {
   inherit nodePackages kadena-graph kadena-graph-bundle;
