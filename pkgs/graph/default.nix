@@ -35,7 +35,7 @@ let
     cd ..
     esbuild ./dist/index.d.ts --bundle --outfile=$out/bin/kadena-graph --format=cjs --platform=node
 
-    prisma_client=lib/node_modules/@kadena/graph/node_modules/@prisma/client
+    prisma_client=lib/node_modules/@kadena/graph/node_modules/@prisma
     mkdir -p $out/$prisma_client
     cp -r ${kadena-graph}/$prisma_client/* $out/$prisma_client
     substituteInPlace $out/bin/kadena-graph \
