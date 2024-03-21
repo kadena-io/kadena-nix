@@ -1,3 +1,4 @@
 [
-  "@kadena/graph"
+  "@kadena/graph",
+  "@kadena/client"
 ]

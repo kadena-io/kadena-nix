@@ -14,9 +14,13 @@
         graph = import pkgs/graph {
           inherit pkgs system nodePackages;
         };
+        kadena-client = import pkgs/kadena-client {
+          inherit pkgs system nodePackages;
+        };
     in {
       packages = {
         kadena-graph = graph.kadena-graph;
+        inherit (kadena-client) kadena-client kadena-client-bundle;
       };
       apps = {
         update-node-packages = {
