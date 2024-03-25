@@ -28,9 +28,9 @@ let
   '';
 
   kadena-graph = pkgs.stdenv.mkDerivation rec {
+    inherit (kadena-graph-unbundled) version packageName;
     buildInputs = [pkgs.esbuild pkgs.makeWrapper pkgs.removeReferencesTo];
     name = "kadena-graph-${version}";
-    version = kadena-graph-unbundled.version;
     enableParallelBuilding = true;
     passAsFile = [ "buildCommand" ];
     buildCommand = ''
