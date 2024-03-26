@@ -42,7 +42,7 @@ let
       for dir in db devnet utils services; do ln -s ../src/$dir "$GRAPH/node_modules/@$dir"; done
 
       ( cd "$GRAPH" &&
-        esbuild dist/index.js --bundle --outfile=$out/bin/kadena-graph --format=cjs --platform=node
+        esbuild dist/index.d.ts --bundle --outfile=$out/bin/kadena-graph --format=cjs --platform=node
       )
 
       remove-references-to -t ${kadena-graph-unbundled} $out/bin/kadena-graph
