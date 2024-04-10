@@ -2587,13 +2587,13 @@ let
         sha512 = "pk2B1NWalF9toCRu6gjBzR69syFjP4Od8WRAX+0mmf9lAjCRicLOWc+ZrxZHx/0XRjotgkF9t6iaMJ+aXcOdZQ==";
       };
     };
-    "@types/node-20.12.6" = {
+    "@types/node-20.12.7" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "20.12.6";
+      version = "20.12.7";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-20.12.6.tgz";
-        sha512 = "3KurE8taB8GCvZBPngVbp0lk5CKi8M9f9k1rsADh0Evdz5SzJ+Q+Hx9uHoFGsLnLnd1xmkDQr2hVhlA0Mn0lKQ==";
+        url = "https://registry.npmjs.org/@types/node/-/node-20.12.7.tgz";
+        sha512 = "wq0cICSkRLVaf3UGLMGItu/PtdY7oaXaI/RVU+xliKVOtRna3PRY57ZDfztpDL0n11vfymMUnXv8QwYCO7L1wg==";
       };
     };
     "@types/node-fetch-2.6.11" = {
@@ -3397,13 +3397,13 @@ let
         sha512 = "Gmy6FhYlCY7uOElZUSbxo2UCDH8owEk996gkbrpsgGtrJLM3J7jGxl9Ic7Qwwj4ivOE5AWZWRMecDdF7hqGjFA==";
       };
     };
-    "caniuse-lite-1.0.30001607" = {
+    "caniuse-lite-1.0.30001608" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001607";
+      version = "1.0.30001608";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001607.tgz";
-        sha512 = "WcvhVRjXLKFB/kmOFVwELtMxyhq3iM/MvmXcyCe2PNf166c39mptscOc/45TTS96n2gpNV2z7+NakArTWZCQ3w==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001608.tgz";
+        sha512 = "cjUJTQkk9fQlJR2s4HMuPMvTiRggl0rAVMtthQuyOlDWuqHXqN8azLq+pi8B2TjwKJ32diHjUqRIKeFX4z1FoA==";
       };
     };
     "chalk-2.4.2" = {
@@ -4081,13 +4081,13 @@ let
         sha512 = "WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==";
       };
     };
-    "electron-to-chromium-1.4.730" = {
+    "electron-to-chromium-1.4.731" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.730";
+      version = "1.4.731";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.730.tgz";
-        sha512 = "oJRPo82XEqtQAobHpJIR3zW5YO3sSRRkPz2an4yxi1UvqhsGm54vR/wzTFV74a3soDOJ8CKW7ajOOX5ESzddwg==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.731.tgz";
+        sha512 = "+TqVfZjpRz2V/5SPpmJxq9qK620SC5SqCnxQIOi7i/U08ZDcTpKbT7Xjj9FU5CbXTMUb4fywbIr8C7cGv4hcjw==";
       };
     };
     "emoji-regex-10.3.0" = {
@@ -8722,10 +8722,10 @@ in
   "@kadena/graph" = nodeEnv.buildNodePackage {
     name = "_at_kadena_slash_graph";
     packageName = "@kadena/graph";
-    version = "0.1.13";
+    version = "0.1.14";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@kadena/graph/-/graph-0.1.13.tgz";
-      sha512 = "sha512-ZAibms7eSrGqpTXCOPpf1JiRd/74uoAFjvzZb6Yhwjuk1VSXavValIUIXl6O+pEGGb6RFrXLbZ75YmnC4V2+bQ==";
+      url = "https://registry.npmjs.org/@kadena/graph/-/graph-0.1.14.tgz";
+      sha512 = "7nj2//Am8nxjNGo6WsAqB1ECd8lO+ZbVPGbiVFb7QWTwsHF33IxfeyeWXRAhyUheJ7yIsCFVgCMvS0VRH/99Yg==";
     };
     dependencies = [
       sources."@aashutoshrathi/word-wrap-1.2.6"
@@ -9194,7 +9194,7 @@ in
       sources."@types/istanbul-lib-coverage-2.0.6"
       sources."@types/istanbul-lib-report-3.0.3"
       sources."@types/istanbul-reports-3.0.4"
-      sources."@types/node-20.12.6"
+      sources."@types/node-20.12.7"
       sources."@types/node-fetch-2.6.11"
       sources."@types/stack-utils-2.0.3"
       sources."@types/tunnel-0.0.3"
@@ -9348,7 +9348,7 @@ in
       sources."caller-path-2.0.0"
       sources."callsites-3.1.0"
       sources."camelcase-5.3.1"
-      sources."caniuse-lite-1.0.30001607"
+      sources."caniuse-lite-1.0.30001608"
       sources."chalk-4.1.2"
       (sources."chokidar-3.6.0" // {
         dependencies = [
@@ -9453,7 +9453,7 @@ in
       sources."eastasianwidth-0.2.0"
       sources."ecdsa-sig-formatter-1.0.11"
       sources."ee-first-1.1.1"
-      sources."electron-to-chromium-1.4.730"
+      sources."electron-to-chromium-1.4.731"
       sources."emoji-regex-8.0.0"
       sources."encodeurl-1.0.2"
       sources."encoding-0.1.13"
