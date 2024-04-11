@@ -31,40 +31,40 @@ let
         sha512 = "TrRLIoSQVzfAJX9H1JeFjzAoDGcoK1IYX1UImfceTZpsyYfWr09Ss1aHW1y5TrrR3iq6RZLBwJ3E24uwPhwahw==";
       };
     };
-    "@azure/abort-controller-2.1.1" = {
+    "@azure/abort-controller-2.1.2" = {
       name = "_at_azure_slash_abort-controller";
       packageName = "@azure/abort-controller";
-      version = "2.1.1";
+      version = "2.1.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@azure/abort-controller/-/abort-controller-2.1.1.tgz";
-        sha512 = "NhzeNm5zu2fPlwGXPUjzsRCRuPx5demaZyNcyNYJDqpa/Sbxzvo/RYt9IwUaAOnDW5+r7J9UOE6f22TQnb9nhQ==";
+        url = "https://registry.npmjs.org/@azure/abort-controller/-/abort-controller-2.1.2.tgz";
+        sha512 = "nBrLsEWm4J2u5LpAPjxADTlq3trDgVZZXHNKabeXZtpq3d3AbN/KGO82R87rdDz5/lYB024rtEf10/q0urNgsA==";
       };
     };
-    "@azure/app-configuration-1.5.0" = {
+    "@azure/app-configuration-1.6.0" = {
       name = "_at_azure_slash_app-configuration";
       packageName = "@azure/app-configuration";
-      version = "1.5.0";
+      version = "1.6.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@azure/app-configuration/-/app-configuration-1.5.0.tgz";
-        sha512 = "YlXwWc/weDFCk12arPkfskXDGxDaSyAA7JaztSVQ0y/IS7GFYqmIj3RTKbsNUSSuGLrKqcxwJ7y3vY9UmHgsdA==";
+        url = "https://registry.npmjs.org/@azure/app-configuration/-/app-configuration-1.6.0.tgz";
+        sha512 = "5Ae4SB0g4VbTnF7B+bwlkRLesRIYcaeg6e2Qxf0RlOEIetIgfAZiX6S5e7hD83X5RkwiPmzDm8rJm6HDpnVcvQ==";
       };
     };
-    "@azure/core-auth-1.7.1" = {
+    "@azure/core-auth-1.7.2" = {
       name = "_at_azure_slash_core-auth";
       packageName = "@azure/core-auth";
-      version = "1.7.1";
+      version = "1.7.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@azure/core-auth/-/core-auth-1.7.1.tgz";
-        sha512 = "dyeQwvgthqs/SlPVQbZQetpslXceHd4i5a7M/7z/lGEAVwnSluabnQOjF2/dk/hhWgMISusv1Ytp4mQ8JNy62A==";
+        url = "https://registry.npmjs.org/@azure/core-auth/-/core-auth-1.7.2.tgz";
+        sha512 = "Igm/S3fDYmnMq1uKS38Ae1/m37B3zigdlZw+kocwEhh5GjyKjPrXKO2J6rzpC1wAxrNil/jX9BJRqBshyjnF3g==";
       };
     };
-    "@azure/core-client-1.9.1" = {
+    "@azure/core-client-1.9.2" = {
       name = "_at_azure_slash_core-client";
       packageName = "@azure/core-client";
-      version = "1.9.1";
+      version = "1.9.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@azure/core-client/-/core-client-1.9.1.tgz";
-        sha512 = "hHYFx9lz0ZpbO5W+iotU9tmIX1jPcoIjYUEUaWGuMi1628LCQ/z05TUR4P+NRtMgyoHQuyVYyGQiD3PC47kaIA==";
+        url = "https://registry.npmjs.org/@azure/core-client/-/core-client-1.9.2.tgz";
+        sha512 = "kRdry/rav3fUKHl/aDLd/pDLcB+4pOFwPPTVEExuMyaI5r+JBbMWqRbCY1pn5BniDaU3lRxO9eaQ1AmSMehl/w==";
       };
     };
     "@azure/core-http-3.0.4" = {
@@ -76,40 +76,40 @@ let
         sha512 = "Fok9VVhMdxAFOtqiiAtg74fL0UJkt0z3D+ouUUxcRLzZNBioPRAMJFVxiWoJljYpXsRi4GDQHzQHDc9AiYaIUQ==";
       };
     };
-    "@azure/core-http-compat-2.1.1" = {
+    "@azure/core-http-compat-2.1.2" = {
       name = "_at_azure_slash_core-http-compat";
       packageName = "@azure/core-http-compat";
-      version = "2.1.1";
+      version = "2.1.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@azure/core-http-compat/-/core-http-compat-2.1.1.tgz";
-        sha512 = "QGSDBkKpDbVOmbqlVPdlPE1JalHWmJjLyZhL+9zZN9gj4X1pTksEbDR77P+qWCJ5NGaSWyKvAW+3Q6hNX8/W+Q==";
+        url = "https://registry.npmjs.org/@azure/core-http-compat/-/core-http-compat-2.1.2.tgz";
+        sha512 = "5MnV1yqzZwgNLLjlizsU3QqOeQChkIXw781Fwh1xdAqJR5AA32IUaq6xv1BICJvfbHoa+JYcaij2HFkhLbNTJQ==";
       };
     };
-    "@azure/core-lro-2.7.1" = {
+    "@azure/core-lro-2.7.2" = {
       name = "_at_azure_slash_core-lro";
       packageName = "@azure/core-lro";
-      version = "2.7.1";
+      version = "2.7.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@azure/core-lro/-/core-lro-2.7.1.tgz";
-        sha512 = "kXSlrNHOCTVZMxpXNRqzgh9/j4cnNXU5Hf2YjMyjddRhCXFiFRzmNaqwN+XO9rGTsCOIaaG7M67zZdyliXZG9g==";
+        url = "https://registry.npmjs.org/@azure/core-lro/-/core-lro-2.7.2.tgz";
+        sha512 = "0YIpccoX8m/k00O7mDDMdJpbr6mf1yWo2dfmxt5A8XVZVVMz2SSKaEbMCeJRvgQ0IaSlqhjT47p4hVIRRy90xw==";
       };
     };
-    "@azure/core-paging-1.6.1" = {
+    "@azure/core-paging-1.6.2" = {
       name = "_at_azure_slash_core-paging";
       packageName = "@azure/core-paging";
-      version = "1.6.1";
+      version = "1.6.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@azure/core-paging/-/core-paging-1.6.1.tgz";
-        sha512 = "3tKIQXSU3mlN+ITz0m2pXLnKK3oQ6/EVcW8ud011Iq+M0rx6Wnm7NUEpoMeOAEedeKlPtemrQzO6YWoDR71O5w==";
+        url = "https://registry.npmjs.org/@azure/core-paging/-/core-paging-1.6.2.tgz";
+        sha512 = "YKWi9YuCU04B55h25cnOYZHxXYtEvQEbKST5vqRga7hWY9ydd3FZHdeQF8pyh+acWZvppw13M/LMGx0LABUVMA==";
       };
     };
-    "@azure/core-rest-pipeline-1.15.1" = {
+    "@azure/core-rest-pipeline-1.15.2" = {
       name = "_at_azure_slash_core-rest-pipeline";
       packageName = "@azure/core-rest-pipeline";
-      version = "1.15.1";
+      version = "1.15.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@azure/core-rest-pipeline/-/core-rest-pipeline-1.15.1.tgz";
-        sha512 = "ZxS6i3eHxh86u+1eWZJiYywoN2vxvsSoAUx60Mny8cZ4nTwvt7UzVVBJO+m2PW2KIJfNiXMt59xBa59htOWL4g==";
+        url = "https://registry.npmjs.org/@azure/core-rest-pipeline/-/core-rest-pipeline-1.15.2.tgz";
+        sha512 = "BmWfpjc/QXc2ipHOh6LbUzp3ONCaa6xzIssTU0DwH9bbYNXJlGUL6tujx5TrbVd/QQknmS+vlQJGrCq2oL1gZA==";
       };
     };
     "@azure/core-tracing-1.0.0-preview.13" = {
@@ -121,31 +121,31 @@ let
         sha512 = "KxDlhXyMlh2Jhj2ykX6vNEU0Vou4nHr025KoSEiz7cS3BNiHNaZcdECk/DmLkEB0as5T7b/TpRcehJ5yV6NeXQ==";
       };
     };
-    "@azure/core-tracing-1.1.1" = {
+    "@azure/core-tracing-1.1.2" = {
       name = "_at_azure_slash_core-tracing";
       packageName = "@azure/core-tracing";
-      version = "1.1.1";
+      version = "1.1.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@azure/core-tracing/-/core-tracing-1.1.1.tgz";
-        sha512 = "qPbYhN1pE5XQ2jPKIHP33x8l3oBu1UqIWnYqZZ3OYnYjzY0xqIHjn49C+ptsPD9yC7uyWI9Zm7iZUZLs2R4DhQ==";
+        url = "https://registry.npmjs.org/@azure/core-tracing/-/core-tracing-1.1.2.tgz";
+        sha512 = "dawW9ifvWAWmUm9/h+/UQ2jrdvjCJ7VJEuCJ6XVNudzcOwm53BFZH4Q845vjfgoUAM8ZxokvVNxNxAITc502YA==";
       };
     };
-    "@azure/core-util-1.8.1" = {
+    "@azure/core-util-1.9.0" = {
       name = "_at_azure_slash_core-util";
       packageName = "@azure/core-util";
-      version = "1.8.1";
+      version = "1.9.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@azure/core-util/-/core-util-1.8.1.tgz";
-        sha512 = "L3voj0StUdJ+YKomvwnTv7gHzguJO+a6h30pmmZdRprJCM+RJlGMPxzuh4R7lhQu1jNmEtaHX5wvTgWLDAmbGQ==";
+        url = "https://registry.npmjs.org/@azure/core-util/-/core-util-1.9.0.tgz";
+        sha512 = "AfalUQ1ZppaKuxPPMsFEUdX6GZPB3d9paR9d/TTL7Ow2De8cJaC7ibi7kWVlFAVPCYo31OcnGymc0R89DX8Oaw==";
       };
     };
-    "@azure/core-xml-1.4.1" = {
+    "@azure/core-xml-1.4.2" = {
       name = "_at_azure_slash_core-xml";
       packageName = "@azure/core-xml";
-      version = "1.4.1";
+      version = "1.4.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@azure/core-xml/-/core-xml-1.4.1.tgz";
-        sha512 = "jNno9kCI4AsBYOv/2iR/NGFOArWHyJ+GLAFC6F2VRMtlQhSvrNZYJwWpxOTKBH3W25/FVlR+TOVH2lRjZay+cg==";
+        url = "https://registry.npmjs.org/@azure/core-xml/-/core-xml-1.4.2.tgz";
+        sha512 = "CW3MZhApe/S4iikbYKE7s83fjDBPIr2kpidX+hlGRwh7N4o1nIpQ/PfJTeioqhfqdMvRtheEl+ft64fyTaLNaA==";
       };
     };
     "@azure/cosmos-4.0.0" = {
@@ -166,13 +166,13 @@ let
         sha512 = "Dq2Aq0mMMF0BPzYQKdBY/OtO7VemP/foh6z+mJpUO1hRL+65C1rGQUJf20LJHotSyU8wHb4HJzOs+Z50GXSy1w==";
       };
     };
-    "@azure/identity-4.0.1" = {
+    "@azure/identity-4.1.0" = {
       name = "_at_azure_slash_identity";
       packageName = "@azure/identity";
-      version = "4.0.1";
+      version = "4.1.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@azure/identity/-/identity-4.0.1.tgz";
-        sha512 = "yRdgF03SFLqUMZZ1gKWt0cs0fvrDIkq2bJ6Oidqcoo5uM85YMBnXWMzYKK30XqIT76lkFyAaoAAy5knXhrG4Lw==";
+        url = "https://registry.npmjs.org/@azure/identity/-/identity-4.1.0.tgz";
+        sha512 = "BhYkF8Xr2gXjyDxocm0pc9RI5J5a1jw8iW0dw6Bx95OGdYbuMyFZrrwNw4eYSqQ2BB6FZOqpJP3vjsAqRcvDhw==";
       };
     };
     "@azure/keyvault-secrets-4.8.0" = {
@@ -184,13 +184,13 @@ let
         sha512 = "RGfpFk6XUXHfWuTAiokOe8t6ej5C4ijf4HVyJUmTfN6VjDBVPvTtoiOi/C5072/ENHScYZFhiYOgIjLgYjfJ/A==";
       };
     };
-    "@azure/logger-1.1.1" = {
+    "@azure/logger-1.1.2" = {
       name = "_at_azure_slash_logger";
       packageName = "@azure/logger";
-      version = "1.1.1";
+      version = "1.1.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@azure/logger/-/logger-1.1.1.tgz";
-        sha512 = "/+4TtokaGgC+MnThdf6HyIH9Wrjp+CnCn3Nx3ggevN7FFjjNyjqg0yLlc2i9S+Z2uAzI8GYOo35Nzb1MhQ89MA==";
+        url = "https://registry.npmjs.org/@azure/logger/-/logger-1.1.2.tgz";
+        sha512 = "l170uE7bsKpIU6B/giRc9i4NI0Mj+tANMMMxf7Zi/5cKzEqPayP7+X1WPrG7e+91JgY8N+7K7nF2WOi7iVhXvg==";
       };
     };
     "@azure/msal-browser-3.11.1" = {
@@ -4081,13 +4081,13 @@ let
         sha512 = "WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==";
       };
     };
-    "electron-to-chromium-1.4.731" = {
+    "electron-to-chromium-1.4.733" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.731";
+      version = "1.4.733";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.731.tgz";
-        sha512 = "+TqVfZjpRz2V/5SPpmJxq9qK620SC5SqCnxQIOi7i/U08ZDcTpKbT7Xjj9FU5CbXTMUb4fywbIr8C7cGv4hcjw==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.733.tgz";
+        sha512 = "gUI9nhI2iBGF0OaYYLKOaOtliFMl+Bt1rY7VmEjwxOxqoYLub/D9xmduPEhbw2imE6gYkJKhIE5it+KE2ulVxQ==";
       };
     };
     "emoji-regex-10.3.0" = {
@@ -8167,13 +8167,13 @@ let
         sha512 = "Ne2YiiGN8bmrmJJEuTWTLJR32nh/JdL1+PSicowtNb0WFpn59GK8/lfD61bVtzguz7b3PBt74nxpv/Pw5po5Rg==";
       };
     };
-    "typescript-5.4.4" = {
+    "typescript-5.4.5" = {
       name = "typescript";
       packageName = "typescript";
-      version = "5.4.4";
+      version = "5.4.5";
       src = fetchurl {
-        url = "https://registry.npmjs.org/typescript/-/typescript-5.4.4.tgz";
-        sha512 = "dGE2Vv8cpVvw28v8HCPqyb08EzbBURxDpuhJvTrusShUfGnhHBafDsLdS1EhhxyL6BJQE+2cT3dDPAv+MQ6oLw==";
+        url = "https://registry.npmjs.org/typescript/-/typescript-5.4.5.tgz";
+        sha512 = "vcI4UpRgg81oIRUFwR0WSIHKt11nJ7SAVlYNIu+QpqeyXP+gpQJy/Z4+F0aGxSE4MqwjyXvW/TzgkLAx2AGHwQ==";
       };
     };
     "uWebSockets.js-fake-version" = {
@@ -8722,24 +8722,24 @@ in
   "@kadena/graph" = nodeEnv.buildNodePackage {
     name = "_at_kadena_slash_graph";
     packageName = "@kadena/graph";
-    version = "0.1.14";
+    version = "1.0.0";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@kadena/graph/-/graph-0.1.14.tgz";
-      sha512 = "7nj2//Am8nxjNGo6WsAqB1ECd8lO+ZbVPGbiVFb7QWTwsHF33IxfeyeWXRAhyUheJ7yIsCFVgCMvS0VRH/99Yg==";
+      url = "https://registry.npmjs.org/@kadena/graph/-/graph-1.0.0.tgz";
+      sha512 = "YQM+RT1TeGhmsfNg1cxB+QFBEcChD0SImUYc3xaI3fEIdU6k+PPhJb2Xu8g2owKtRqmYJHASGU/jP7JDqeMF7Q==";
     };
     dependencies = [
       sources."@aashutoshrathi/word-wrap-1.2.6"
       sources."@ampproject/remapping-2.3.0"
       sources."@azure/abort-controller-1.1.0"
-      sources."@azure/app-configuration-1.5.0"
-      (sources."@azure/core-auth-1.7.1" // {
+      sources."@azure/app-configuration-1.6.0"
+      (sources."@azure/core-auth-1.7.2" // {
         dependencies = [
-          sources."@azure/abort-controller-2.1.1"
+          sources."@azure/abort-controller-2.1.2"
         ];
       })
-      (sources."@azure/core-client-1.9.1" // {
+      (sources."@azure/core-client-1.9.2" // {
         dependencies = [
-          sources."@azure/abort-controller-2.1.1"
+          sources."@azure/abort-controller-2.1.2"
         ];
       })
       (sources."@azure/core-http-3.0.4" // {
@@ -8747,34 +8747,34 @@ in
           sources."@azure/core-tracing-1.0.0-preview.13"
         ];
       })
-      (sources."@azure/core-http-compat-2.1.1" // {
+      (sources."@azure/core-http-compat-2.1.2" // {
         dependencies = [
-          sources."@azure/abort-controller-2.1.1"
+          sources."@azure/abort-controller-2.1.2"
         ];
       })
-      (sources."@azure/core-lro-2.7.1" // {
+      (sources."@azure/core-lro-2.7.2" // {
         dependencies = [
-          sources."@azure/abort-controller-2.1.1"
+          sources."@azure/abort-controller-2.1.2"
         ];
       })
-      sources."@azure/core-paging-1.6.1"
-      (sources."@azure/core-rest-pipeline-1.15.1" // {
+      sources."@azure/core-paging-1.6.2"
+      (sources."@azure/core-rest-pipeline-1.15.2" // {
         dependencies = [
-          sources."@azure/abort-controller-2.1.1"
+          sources."@azure/abort-controller-2.1.2"
         ];
       })
-      sources."@azure/core-tracing-1.1.1"
-      (sources."@azure/core-util-1.8.1" // {
+      sources."@azure/core-tracing-1.1.2"
+      (sources."@azure/core-util-1.9.0" // {
         dependencies = [
-          sources."@azure/abort-controller-2.1.1"
+          sources."@azure/abort-controller-2.1.2"
         ];
       })
-      sources."@azure/core-xml-1.4.1"
+      sources."@azure/core-xml-1.4.2"
       sources."@azure/cosmos-4.0.0"
       sources."@azure/data-tables-13.2.2"
-      sources."@azure/identity-4.0.1"
+      sources."@azure/identity-4.1.0"
       sources."@azure/keyvault-secrets-4.8.0"
-      sources."@azure/logger-1.1.1"
+      sources."@azure/logger-1.1.2"
       sources."@azure/msal-browser-3.11.1"
       sources."@azure/msal-common-14.8.1"
       sources."@azure/msal-node-2.6.6"
@@ -9453,7 +9453,7 @@ in
       sources."eastasianwidth-0.2.0"
       sources."ecdsa-sig-formatter-1.0.11"
       sources."ee-first-1.1.1"
-      sources."electron-to-chromium-1.4.731"
+      sources."electron-to-chromium-1.4.733"
       sources."emoji-regex-8.0.0"
       sources."encodeurl-1.0.2"
       sources."encoding-0.1.13"
@@ -10051,7 +10051,7 @@ in
       sources."type-check-0.4.0"
       sources."type-detect-4.0.8"
       sources."type-fest-0.20.2"
-      sources."typescript-5.4.4"
+      sources."typescript-5.4.5"
       sources."uWebSockets.js-fake-version"
       sources."ufo-1.5.3"
       sources."uint8arrays-3.1.1"
