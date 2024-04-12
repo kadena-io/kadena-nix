@@ -193,31 +193,31 @@ let
         sha512 = "l170uE7bsKpIU6B/giRc9i4NI0Mj+tANMMMxf7Zi/5cKzEqPayP7+X1WPrG7e+91JgY8N+7K7nF2WOi7iVhXvg==";
       };
     };
-    "@azure/msal-browser-3.11.1" = {
+    "@azure/msal-browser-3.13.0" = {
       name = "_at_azure_slash_msal-browser";
       packageName = "@azure/msal-browser";
-      version = "3.11.1";
+      version = "3.13.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@azure/msal-browser/-/msal-browser-3.11.1.tgz";
-        sha512 = "tZFJnP5ZpgkmazSriEDW+Xl3/4WI823uhnYhWCHPkGywFWEZoPA5VkiCK8x4x8ECXp3mGr5qEI82MU43PBiaKA==";
+        url = "https://registry.npmjs.org/@azure/msal-browser/-/msal-browser-3.13.0.tgz";
+        sha512 = "fD906nmJei3yE7la6DZTdUtXKvpwzJURkfsiz9747Icv4pit77cegSm6prJTKLQ1fw4iiZzrrWwxnhMLrTf5gQ==";
       };
     };
-    "@azure/msal-common-14.8.1" = {
+    "@azure/msal-common-14.9.0" = {
       name = "_at_azure_slash_msal-common";
       packageName = "@azure/msal-common";
-      version = "14.8.1";
+      version = "14.9.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@azure/msal-common/-/msal-common-14.8.1.tgz";
-        sha512 = "9HfBMDTIgtFFkils+o6gO/aGEoLLuc4z+QLLfhy/T1bTNPiVsX/9CjaBPMZGnMltN/IlMkU5SGGNggGh55p5xA==";
+        url = "https://registry.npmjs.org/@azure/msal-common/-/msal-common-14.9.0.tgz";
+        sha512 = "yzBPRlWPnTBeixxLNI3BBIgF5/bHpbhoRVuuDBnYjCyWRavaPUsKAHUDYLqpGkBLDciA6TCc6GOxN4/S3WiSxg==";
       };
     };
-    "@azure/msal-node-2.6.6" = {
+    "@azure/msal-node-2.7.0" = {
       name = "_at_azure_slash_msal-node";
       packageName = "@azure/msal-node";
-      version = "2.6.6";
+      version = "2.7.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@azure/msal-node/-/msal-node-2.6.6.tgz";
-        sha512 = "j+1hW81ccglIYWukXufzRA4O71BCmpbmCO66ECDyE9FuPno6SjiR+K+mIk4tg6aQ7/UO2QA/EnRmT6YN0EF1Hw==";
+        url = "https://registry.npmjs.org/@azure/msal-node/-/msal-node-2.7.0.tgz";
+        sha512 = "wXD8LkUvHICeSWZydqg6o8Yvv+grlBEcmLGu+QEI4FcwFendbTEZrlSygnAXXSOCVaGAirWLchca35qrgpO6Jw==";
       };
     };
     "@azure/storage-blob-12.17.0" = {
@@ -3397,13 +3397,13 @@ let
         sha512 = "Gmy6FhYlCY7uOElZUSbxo2UCDH8owEk996gkbrpsgGtrJLM3J7jGxl9Ic7Qwwj4ivOE5AWZWRMecDdF7hqGjFA==";
       };
     };
-    "caniuse-lite-1.0.30001608" = {
+    "caniuse-lite-1.0.30001609" = {
       name = "caniuse-lite";
       packageName = "caniuse-lite";
-      version = "1.0.30001608";
+      version = "1.0.30001609";
       src = fetchurl {
-        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001608.tgz";
-        sha512 = "cjUJTQkk9fQlJR2s4HMuPMvTiRggl0rAVMtthQuyOlDWuqHXqN8azLq+pi8B2TjwKJ32diHjUqRIKeFX4z1FoA==";
+        url = "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001609.tgz";
+        sha512 = "JFPQs34lHKx1B5t1EpQpWH4c+29zIyn/haGsbpfq3suuV9v56enjFt23zqijxGTMwy1p/4H2tjnQMY+p1WoAyA==";
       };
     };
     "chalk-2.4.2" = {
@@ -4081,13 +4081,13 @@ let
         sha512 = "WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==";
       };
     };
-    "electron-to-chromium-1.4.733" = {
+    "electron-to-chromium-1.4.735" = {
       name = "electron-to-chromium";
       packageName = "electron-to-chromium";
-      version = "1.4.733";
+      version = "1.4.735";
       src = fetchurl {
-        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.733.tgz";
-        sha512 = "gUI9nhI2iBGF0OaYYLKOaOtliFMl+Bt1rY7VmEjwxOxqoYLub/D9xmduPEhbw2imE6gYkJKhIE5it+KE2ulVxQ==";
+        url = "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.735.tgz";
+        sha512 = "pkYpvwg8VyOTQAeBqZ7jsmpCjko1Qc6We1ZtZCjRyYbT5v4AIUKDy5cQTRotQlSSZmMr8jqpEt6JtOj5k7lR7A==";
       };
     };
     "emoji-regex-10.3.0" = {
@@ -8722,10 +8722,10 @@ in
   "@kadena/graph" = nodeEnv.buildNodePackage {
     name = "_at_kadena_slash_graph";
     packageName = "@kadena/graph";
-    version = "1.0.0";
+    version = "1.0.1";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@kadena/graph/-/graph-1.0.0.tgz";
-      sha512 = "YQM+RT1TeGhmsfNg1cxB+QFBEcChD0SImUYc3xaI3fEIdU6k+PPhJb2Xu8g2owKtRqmYJHASGU/jP7JDqeMF7Q==";
+      url = "https://registry.npmjs.org/@kadena/graph/-/graph-1.0.1.tgz";
+      sha512 = "RNQNBS20knfn2P44Ir39bmDMeZHXofcTgAcMCzhSPnlWaW2UFWEjob5RVzBB8GSoE0EV02KFOTX/DmC3GzNjUQ==";
     };
     dependencies = [
       sources."@aashutoshrathi/word-wrap-1.2.6"
@@ -8775,9 +8775,9 @@ in
       sources."@azure/identity-4.1.0"
       sources."@azure/keyvault-secrets-4.8.0"
       sources."@azure/logger-1.1.2"
-      sources."@azure/msal-browser-3.11.1"
-      sources."@azure/msal-common-14.8.1"
-      sources."@azure/msal-node-2.6.6"
+      sources."@azure/msal-browser-3.13.0"
+      sources."@azure/msal-common-14.9.0"
+      sources."@azure/msal-node-2.7.0"
       (sources."@azure/storage-blob-12.17.0" // {
         dependencies = [
           sources."@azure/core-tracing-1.0.0-preview.13"
@@ -9348,7 +9348,7 @@ in
       sources."caller-path-2.0.0"
       sources."callsites-3.1.0"
       sources."camelcase-5.3.1"
-      sources."caniuse-lite-1.0.30001608"
+      sources."caniuse-lite-1.0.30001609"
       sources."chalk-4.1.2"
       (sources."chokidar-3.6.0" // {
         dependencies = [
@@ -9453,7 +9453,7 @@ in
       sources."eastasianwidth-0.2.0"
       sources."ecdsa-sig-formatter-1.0.11"
       sources."ee-first-1.1.1"
-      sources."electron-to-chromium-1.4.733"
+      sources."electron-to-chromium-1.4.735"
       sources."emoji-regex-8.0.0"
       sources."encodeurl-1.0.2"
       sources."encoding-0.1.13"
