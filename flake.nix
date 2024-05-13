@@ -17,6 +17,7 @@
     in {
       packages = {
         inherit (graph) kadena-graph kadena-graph-unbundled;
+        kadena-cli = nodePackages."@kadena/kadena-cli";
       };
       apps = {
         update-node-packages = {
