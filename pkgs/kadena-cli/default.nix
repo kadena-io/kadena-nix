@@ -38,8 +38,8 @@ let
 
       mkdir -p $out/bin
       cat - > $out/bin/kadena <<EOF
-      #!${pkgs.runtimeShell}
-      ${nodejs-slim}/bin/node $out/lib/cli.mjs "\$@"
+      #!${pkgs.runtimeShell} -e
+      exec -a "\$0" "${nodejs-slim}/bin/node" "$out/lib/cli.mjs" "\$@"
       EOF
       chmod +x $out/bin/kadena
     '';
