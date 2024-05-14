@@ -1,4 +1,4 @@
 [
   "@kadena/graph",
-  "@kadena/kadena-cli"
+  { "clibundle": "../kadena-cli" }
 ]

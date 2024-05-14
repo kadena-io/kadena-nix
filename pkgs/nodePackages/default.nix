@@ -8,8 +8,9 @@
 }:
 let
   composition = import ./composition.nix { inherit pkgs system nodejs; };
-  filterFake = builtins.mapAttrs ( name: drv: drv.override ( old: {
+  filterFake = builtins.mapAttrs ( name: drv: drv.override ( old: rec {
     dependencies = builtins.filter ( d: d.version != "fake-version" ) old.dependencies;
+    passthru = { inherit dependencies; } // old.passthru or {};
   }));
   update = pkgs.writeShellScript "update-node-packages" ''
     set -e
