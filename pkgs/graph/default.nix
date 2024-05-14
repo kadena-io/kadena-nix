@@ -1,6 +1,7 @@
 { pkgs ? import <nixpkgs> {inherit system;}
 , system ? builtins.currentSystem
 , nodejs ? pkgs.nodejs
+, nodejs-slim ? pkgs.nodejs-slim
 , nodePackages ? import ../nodePackages { inherit pkgs system nodejs; }
 }:
 let
@@ -48,7 +49,7 @@ let
       remove-references-to -t ${kadena-graph-unbundled} $out/bin/kadena-graph
 
       substituteInPlace $out/bin/kadena-graph \
-        --replace "/usr/bin/env node" ${pkgs.nodejs-slim}/bin/node
+        --replace "/usr/bin/env node" ${nodejs-slim}/bin/node
 
       wrapProgram $out/bin/kadena-graph \
         --set PRISMA_QUERY_ENGINE_LIBRARY "${prisma-slim}/lib/libquery_engine.node" \
