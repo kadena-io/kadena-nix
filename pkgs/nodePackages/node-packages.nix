@@ -2371,76 +2371,76 @@ let
         sha512 = "Qv3/EQNT4RoJVuuz2uqXIYEVXORbiuh43nI4NGan+tUDzotNHsbkKXRt7kzwWn0xaC7wkp7q/48SYWsPwfhZQQ==";
       };
     };
-    "@prisma/client-5.18.0" = {
+    "@prisma/client-5.19.0" = {
       name = "_at_prisma_slash_client";
       packageName = "@prisma/client";
-      version = "5.18.0";
+      version = "5.19.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@prisma/client/-/client-5.18.0.tgz";
-        sha512 = "BWivkLh+af1kqC89zCJYkHsRcyWsM8/JHpsDMM76DjP3ZdEquJhXa4IeX+HkWPnwJ5FanxEJFZZDTWiDs/Kvyw==";
+        url = "https://registry.npmjs.org/@prisma/client/-/client-5.19.0.tgz";
+        sha512 = "CzOpau+q1kEWQyoQMvlnXIHqPvwmWbh48xZ4n8KWbAql0p8PC0BIgSTYW5ncxXa4JSEff0tcoxSZB874wDstdg==";
       };
     };
-    "@prisma/debug-5.18.0" = {
+    "@prisma/debug-5.19.0" = {
       name = "_at_prisma_slash_debug";
       packageName = "@prisma/debug";
-      version = "5.18.0";
+      version = "5.19.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@prisma/debug/-/debug-5.18.0.tgz";
-        sha512 = "f+ZvpTLidSo3LMJxQPVgAxdAjzv5OpzAo/eF8qZqbwvgi2F5cTOI9XCpdRzJYA0iGfajjwjOKKrVq64vkxEfUw==";
+        url = "https://registry.npmjs.org/@prisma/debug/-/debug-5.19.0.tgz";
+        sha512 = "+b/G0ubAZlrS+JSiDhXnYV5DF/aTJ3pinktkiV/L4TtLRLZO6SVGyFELgxBsicCTWJ2ZMu5vEV/jTtYCdjFTRA==";
       };
     };
-    "@prisma/engines-5.18.0" = {
+    "@prisma/engines-5.19.0" = {
       name = "_at_prisma_slash_engines";
       packageName = "@prisma/engines";
-      version = "5.18.0";
+      version = "5.19.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@prisma/engines/-/engines-5.18.0.tgz";
-        sha512 = "ofmpGLeJ2q2P0wa/XaEgTnX/IsLnvSp/gZts0zjgLNdBhfuj2lowOOPmDcfKljLQUXMvAek3lw5T01kHmCG8rg==";
+        url = "https://registry.npmjs.org/@prisma/engines/-/engines-5.19.0.tgz";
+        sha512 = "UtW+0m4HYoRSSR3LoDGKF3Ud4BSMWYlLEt4slTnuP1mI+vrV3zaDoiAPmejdAT76vCN5UqnWURbkXxf66nSylQ==";
       };
     };
-    "@prisma/engines-version-5.18.0-25.4c784e32044a8a016d99474bd02a3b6123742169" = {
+    "@prisma/engines-version-5.19.0-31.5fe21811a6ba0b952a3bc71400666511fe3b902f" = {
       name = "_at_prisma_slash_engines-version";
       packageName = "@prisma/engines-version";
-      version = "5.18.0-25.4c784e32044a8a016d99474bd02a3b6123742169";
+      version = "5.19.0-31.5fe21811a6ba0b952a3bc71400666511fe3b902f";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@prisma/engines-version/-/engines-version-5.18.0-25.4c784e32044a8a016d99474bd02a3b6123742169.tgz";
-        sha512 = "a/+LpJj8vYU3nmtkg+N3X51ddbt35yYrRe8wqHTJtYQt7l1f8kjIBcCs6sHJvodW/EK5XGvboOiwm47fmNrbgg==";
+        url = "https://registry.npmjs.org/@prisma/engines-version/-/engines-version-5.19.0-31.5fe21811a6ba0b952a3bc71400666511fe3b902f.tgz";
+        sha512 = "GimI9aZIFy/yvvR11KfXRn3pliFn1QAkdebVlsXlnoh5uk0YhLblVmeYiHfsu+wDA7BeKqYT4sFfzg8mutzuWw==";
       };
     };
-    "@prisma/fetch-engine-5.18.0" = {
+    "@prisma/fetch-engine-5.19.0" = {
       name = "_at_prisma_slash_fetch-engine";
       packageName = "@prisma/fetch-engine";
-      version = "5.18.0";
+      version = "5.19.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@prisma/fetch-engine/-/fetch-engine-5.18.0.tgz";
-        sha512 = "I/3u0x2n31rGaAuBRx2YK4eB7R/1zCuayo2DGwSpGyrJWsZesrV7QVw7ND0/Suxeo/vLkJ5OwuBqHoCxvTHpOg==";
+        url = "https://registry.npmjs.org/@prisma/fetch-engine/-/fetch-engine-5.19.0.tgz";
+        sha512 = "oOiPNtmJX0cP/ebu7BBEouJvCw8T84/MFD/Hf2zlqjxkK4ojl38bB9i9J5LAxotL6WlYVThKdxc7HqoWnPOhqQ==";
       };
     };
-    "@prisma/generator-helper-5.18.0" = {
+    "@prisma/generator-helper-5.19.0" = {
       name = "_at_prisma_slash_generator-helper";
       packageName = "@prisma/generator-helper";
-      version = "5.18.0";
+      version = "5.19.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@prisma/generator-helper/-/generator-helper-5.18.0.tgz";
-        sha512 = "3ffmrd9KE8ssg/fwyvfwMxrDAunLF8DLFjfwYnDRE7VaNIhkUVZwB77jAwpMCtukvCsAp14WGWu4itvLMzH3GQ==";
+        url = "https://registry.npmjs.org/@prisma/generator-helper/-/generator-helper-5.19.0.tgz";
+        sha512 = "qZDgnq/dHVHYUNRG8ETuIvoiZzWxwKHhG9Jb4WWoQFXXuTY+1km0L5QAPOJ0U7Qo8ookUf25B88n1Z9Az7l/UQ==";
       };
     };
-    "@prisma/get-platform-5.18.0" = {
+    "@prisma/get-platform-5.19.0" = {
       name = "_at_prisma_slash_get-platform";
       packageName = "@prisma/get-platform";
-      version = "5.18.0";
+      version = "5.19.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@prisma/get-platform/-/get-platform-5.18.0.tgz";
-        sha512 = "Tk+m7+uhqcKDgnMnFN0lRiH7Ewea0OEsZZs9pqXa7i3+7svS3FSCqDBCaM9x5fmhhkufiG0BtunJVDka+46DlA==";
+        url = "https://registry.npmjs.org/@prisma/get-platform/-/get-platform-5.19.0.tgz";
+        sha512 = "s9DWkZKnuP4Y8uy6yZfvqQ/9X3/+2KYf3IZUVZz5OstJdGBJrBlbmIuMl81917wp5TuK/1k2TpHNCEdpYLPKmg==";
       };
     };
-    "@prisma/instrumentation-5.17.0" = {
+    "@prisma/instrumentation-5.18.0" = {
       name = "_at_prisma_slash_instrumentation";
       packageName = "@prisma/instrumentation";
-      version = "5.17.0";
+      version = "5.18.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@prisma/instrumentation/-/instrumentation-5.17.0.tgz";
-        sha512 = "c1Sle4ji8aasMcYfBBHFM56We4ljfenVtRmS8aY06BllS7SoU6SmJBwG7vil+GHiR0Yrh+t9iBwt4AY0Jr4KNQ==";
+        url = "https://registry.npmjs.org/@prisma/instrumentation/-/instrumentation-5.18.0.tgz";
+        sha512 = "r074avGkpPXItk+josQPhufZEmGhUCb16PQx4ITPS40vWTpTPET4VsgCBZB2alIN6SS7pRFod2vz2M2HHEEylQ==";
       };
     };
     "@react-native-async-storage/async-storage-1.24.0" = {
@@ -2749,58 +2749,58 @@ let
         sha512 = "Z3/Fsz1yr904dduJD0NpiyRHhRYHdcnyh73FZWiV+/qhWi83wNJ3NWolYqCEN+ZWsUz2TWwajJggcRE9r1zUYg==";
       };
     };
-    "@sentry/core-8.26.0" = {
+    "@sentry/core-8.27.0" = {
       name = "_at_sentry_slash_core";
       packageName = "@sentry/core";
-      version = "8.26.0";
+      version = "8.27.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@sentry/core/-/core-8.26.0.tgz";
-        sha512 = "g/tVmTZD4GNbLFf++hKJfBpcCAtduFEMLnbfa9iT/QEZjlmP+EzY+GsH9bafM5VsNe8DiOUp+kJKWtShzlVdBA==";
+        url = "https://registry.npmjs.org/@sentry/core/-/core-8.27.0.tgz";
+        sha512 = "4frlXluHT3Du+Omw91K04jpvbfMtydvg4Bxj2+gt/DT19Swhm/fbEpzdUjgbAd3Jinj/n0qk/jFRXjr9JZKFjg==";
       };
     };
-    "@sentry/node-8.26.0" = {
+    "@sentry/node-8.27.0" = {
       name = "_at_sentry_slash_node";
       packageName = "@sentry/node";
-      version = "8.26.0";
+      version = "8.27.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@sentry/node/-/node-8.26.0.tgz";
-        sha512 = "N9mNLzicnfGgsq6P10ckPdTzEFusjTC7gpqPopwq5eEMF7g798hH8CcE5o6FZ4iAAR3vWliAR/jgccdoMmJMpQ==";
+        url = "https://registry.npmjs.org/@sentry/node/-/node-8.27.0.tgz";
+        sha512 = "nE2VPSHOW/tzH/lB6CoBtYkmXqXncUuWMC56RLRiPyHEXDktZx8oFp364/3m117iKOjO0XHP57Kl5cdb90IM7g==";
       };
     };
-    "@sentry/opentelemetry-8.26.0" = {
+    "@sentry/opentelemetry-8.27.0" = {
       name = "_at_sentry_slash_opentelemetry";
       packageName = "@sentry/opentelemetry";
-      version = "8.26.0";
+      version = "8.27.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@sentry/opentelemetry/-/opentelemetry-8.26.0.tgz";
-        sha512 = "HBDheM/+ysfIz8R1OH4bBIxdgD7ZbQkKLJAUXkdAbBcfbpK/CTtwcplbauF5wY7Q+GYvwL/ShuDwvXRfW+gFyQ==";
+        url = "https://registry.npmjs.org/@sentry/opentelemetry/-/opentelemetry-8.27.0.tgz";
+        sha512 = "FRz7ApnyZYDFmi2CWUhKBux2N/0WswRLHwHDZ31FYCajujw7vQKucgdsxDW2RIRPWDwcMxHY1kvt6EzM1hIsxQ==";
       };
     };
-    "@sentry/profiling-node-8.26.0" = {
+    "@sentry/profiling-node-8.27.0" = {
       name = "_at_sentry_slash_profiling-node";
       packageName = "@sentry/profiling-node";
-      version = "8.26.0";
+      version = "8.27.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@sentry/profiling-node/-/profiling-node-8.26.0.tgz";
-        sha512 = "yGHFoqSKe5j9fDK9n5ntJxDyZnedwjCm6fAXwIlsLJOUBqn5g7l8V1XgBPlCJLZzOG0fbvGvSo4WyBfDoSD8vQ==";
+        url = "https://registry.npmjs.org/@sentry/profiling-node/-/profiling-node-8.27.0.tgz";
+        sha512 = "Q6gZ+DSSreGbCE6BGvBbcWEJtRLcDydbwRN2yyUIobb+f0W9dEM1FYWk7H0urlI3RcN2H4JPNCouK4g1Zjacyg==";
       };
     };
-    "@sentry/types-8.26.0" = {
+    "@sentry/types-8.27.0" = {
       name = "_at_sentry_slash_types";
       packageName = "@sentry/types";
-      version = "8.26.0";
+      version = "8.27.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@sentry/types/-/types-8.26.0.tgz";
-        sha512 = "zKmh6SWsJh630rpt7a9vP4Cm4m1C2gDTUqUiH565CajCL/4cePpNWYrNwalSqsOSL7B9OrczA1+n6a6XvND+ng==";
+        url = "https://registry.npmjs.org/@sentry/types/-/types-8.27.0.tgz";
+        sha512 = "B6lrP46+m2x0lfqWc9F4VcUbN893mVGnPEd7KIMRk95mPzkFJ3sNxggTQF5/ZfNO7lDQYQb22uysB5sj/BqFiw==";
       };
     };
-    "@sentry/utils-8.26.0" = {
+    "@sentry/utils-8.27.0" = {
       name = "_at_sentry_slash_utils";
       packageName = "@sentry/utils";
-      version = "8.26.0";
+      version = "8.27.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@sentry/utils/-/utils-8.26.0.tgz";
-        sha512 = "xvlPU9Hd2BlyT+FhWHGNwnxWqdVRk2AHnDtVcW4Ma0Ri5EwS+uy4Jeik5UkSv8C5RVb9VlxFmS8LN3I1MPJsLw==";
+        url = "https://registry.npmjs.org/@sentry/utils/-/utils-8.27.0.tgz";
+        sha512 = "gyJM3SyLQe0A3mkQVVNdKYvk3ZoikkYgyA/D+5StFNLKdyUgEbJgXOGXrQSSYPF7BSX6Sc5b0KHCglPII0KuKw==";
       };
     };
     "@sideway/address-4.1.5" = {
@@ -7861,13 +7861,13 @@ let
         sha512 = "19BMarhgpq3x4ccvVi8k2QpJZcymo/iFUcrhPd4V96kYGovOdTsWwy7fxChYi4QY+m2EnGBWSX9Buakz+tWNQQ==";
       };
     };
-    "prisma-5.18.0" = {
+    "prisma-5.19.0" = {
       name = "prisma";
       packageName = "prisma";
-      version = "5.18.0";
+      version = "5.19.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/prisma/-/prisma-5.18.0.tgz";
-        sha512 = "+TrSIxZsh64OPOmaSgVPH7ALL9dfU0jceYaMJXsNrTkFHO7/3RANi5K2ZiPB1De9+KDxCWn7jvRq8y8pvk+o9g==";
+        url = "https://registry.npmjs.org/prisma/-/prisma-5.19.0.tgz";
+        sha512 = "Pu7lUKpVyTx8cVwM26dYh8NdvMOkMnJXzE8L6cikFuR4JwyMU5NKofQkWyxJKlTT4fNjmcnibTvklV8oVMrn+g==";
       };
     };
     "process-nextick-args-2.0.1" = {
@@ -10094,14 +10094,14 @@ in
       sources."@pothos/plugin-tracing-0.5.8"
       sources."@pothos/plugin-validation-3.10.2"
       sources."@pothos/tracing-sentry-0.8.1"
-      sources."@prisma/client-5.18.0"
-      sources."@prisma/debug-5.18.0"
-      sources."@prisma/engines-5.18.0"
-      sources."@prisma/engines-version-5.18.0-25.4c784e32044a8a016d99474bd02a3b6123742169"
-      sources."@prisma/fetch-engine-5.18.0"
-      sources."@prisma/generator-helper-5.18.0"
-      sources."@prisma/get-platform-5.18.0"
-      sources."@prisma/instrumentation-5.17.0"
+      sources."@prisma/client-5.19.0"
+      sources."@prisma/debug-5.19.0"
+      sources."@prisma/engines-5.19.0"
+      sources."@prisma/engines-version-5.19.0-31.5fe21811a6ba0b952a3bc71400666511fe3b902f"
+      sources."@prisma/fetch-engine-5.19.0"
+      sources."@prisma/generator-helper-5.19.0"
+      sources."@prisma/get-platform-5.19.0"
+      sources."@prisma/instrumentation-5.18.0"
       sources."@react-native-async-storage/async-storage-1.24.0"
       (sources."@react-native-community/cli-14.0.0" // {
         dependencies = [
@@ -10243,12 +10243,12 @@ in
       sources."@react-native/normalize-colors-0.75.2"
       sources."@react-native/virtualized-lists-0.75.2"
       sources."@repeaterjs/repeater-3.0.6"
-      sources."@sentry/core-8.26.0"
-      sources."@sentry/node-8.26.0"
-      sources."@sentry/opentelemetry-8.26.0"
-      sources."@sentry/profiling-node-8.26.0"
-      sources."@sentry/types-8.26.0"
-      sources."@sentry/utils-8.26.0"
+      sources."@sentry/core-8.27.0"
+      sources."@sentry/node-8.27.0"
+      sources."@sentry/opentelemetry-8.27.0"
+      sources."@sentry/profiling-node-8.27.0"
+      sources."@sentry/types-8.27.0"
+      sources."@sentry/utils-8.27.0"
       sources."@sideway/address-4.1.5"
       sources."@sideway/formula-3.0.1"
       sources."@sideway/pinpoint-2.0.0"
@@ -10980,7 +10980,7 @@ in
       sources."prettier-3.2.5"
       sources."pretty-format-26.6.2"
       sources."priorityqueuejs-2.0.0"
-      sources."prisma-5.18.0"
+      sources."prisma-5.19.0"
       sources."process-nextick-args-2.0.1"
       sources."process-warning-1.0.0"
       sources."promise-8.3.0"
