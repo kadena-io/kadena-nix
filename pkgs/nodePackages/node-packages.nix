@@ -175,15 +175,6 @@ let
         sha512 = "ZkL2Z0zffsBIE3ovhMwa0rVrPeKV2GHhDWFgWiIcKiPt82b21YLijK3c/rNjTHkME+6FCjMIa/5Nul+ZjH197w==";
       };
     };
-    "@azure/msal-common-14.14.1" = {
-      name = "_at_azure_slash_msal-common";
-      packageName = "@azure/msal-common";
-      version = "14.14.1";
-      src = fetchurl {
-        url = "https://registry.npmjs.org/@azure/msal-common/-/msal-common-14.14.1.tgz";
-        sha512 = "2Q3tqNz/PZLfSr8BvcHZVpRRfSn4MjGSqjj9J+HlBsmbf1Uu4P0WeXnemjTJwwx9KrmplsrN3UkZ/LPOR720rw==";
-      };
-    };
     "@azure/msal-common-14.14.2" = {
       name = "_at_azure_slash_msal-common";
       packageName = "@azure/msal-common";
@@ -193,13 +184,13 @@ let
         sha512 = "XV0P5kSNwDwCA/SjIxTe9mEAsKB0NqGNSuaVrkCCE2lAyBr/D6YtD80Vkdp4tjWnPFwjzkwldjr1xU/facOJog==";
       };
     };
-    "@azure/msal-node-2.13.0" = {
+    "@azure/msal-node-2.13.1" = {
       name = "_at_azure_slash_msal-node";
       packageName = "@azure/msal-node";
-      version = "2.13.0";
+      version = "2.13.1";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@azure/msal-node/-/msal-node-2.13.0.tgz";
-        sha512 = "DhP97ycs7qlCVzzzWGzJiwAFyFj5okno74E4FUZ61oCLfKh4IxA1kxirqzrWuYZWpBe9HVPL6GA4NvmlEOBN5Q==";
+        url = "https://registry.npmjs.org/@azure/msal-node/-/msal-node-2.13.1.tgz";
+        sha512 = "sijfzPNorKt6+9g1/miHwhj6Iapff4mPQx1azmmZExgzUROqWTM1o3ACyxDja0g47VpowFy/sxTM/WsuCyXTiw==";
       };
     };
     "@azure/storage-blob-12.24.0" = {
@@ -9748,10 +9739,10 @@ in
   "@kadena/graph" = nodeEnv.buildNodePackage {
     name = "_at_kadena_slash_graph";
     packageName = "@kadena/graph";
-    version = "1.0.10-alpha.1";
+    version = "1.0.10";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@kadena/graph/-/graph-1.0.10-alpha.1.tgz";
-      sha512 = "fZget9boJxfFpqPFW2g45pCu6gZmURr5Ekhs3BgdZUlxmV0XNwCT4cZkYRGf0MnQHzS6XcX0wLcollyOMWSL6Q==";
+      url = "https://registry.npmjs.org/@kadena/graph/-/graph-1.0.10.tgz";
+      sha512 = "4f/jUp6UdIna2Io5zIYhGXL7mO8gryAMOg3TCY5Q2tE+zvPpcgvZVRU+oiAsqOLFV8Pa+kmYlse8e1cBRek1RA==";
     };
     dependencies = [
       sources."@ampproject/remapping-2.3.0"
@@ -9779,13 +9770,9 @@ in
         ];
       })
       sources."@azure/logger-1.1.4"
-      (sources."@azure/msal-browser-3.22.0" // {
-        dependencies = [
-          sources."@azure/msal-common-14.14.2"
-        ];
-      })
-      sources."@azure/msal-common-14.14.1"
-      sources."@azure/msal-node-2.13.0"
+      sources."@azure/msal-browser-3.22.0"
+      sources."@azure/msal-common-14.14.2"
+      sources."@azure/msal-node-2.13.1"
       (sources."@azure/storage-blob-12.24.0" // {
         dependencies = [
           sources."@azure/abort-controller-1.1.0"
@@ -10078,7 +10065,11 @@ in
       sources."@opentelemetry/sdk-trace-base-1.26.0"
       sources."@opentelemetry/semantic-conventions-1.27.0"
       sources."@opentelemetry/sql-common-0.40.1"
-      sources."@parcel/watcher-2.4.1"
+      (sources."@parcel/watcher-2.4.1" // {
+        dependencies = [
+          sources."detect-libc-1.0.3"
+        ];
+      })
       sources."@parcel/watcher-android-arm64-2.4.1"
       sources."@parcel/watcher-darwin-arm64-2.4.1"
       sources."@parcel/watcher-darwin-x64-2.4.1"
@@ -10209,10 +10200,6 @@ in
       (sources."@react-native/codegen-0.75.2" // {
         dependencies = [
           sources."cliui-8.0.1"
-          sources."emoji-regex-8.0.0"
-          sources."is-fullwidth-code-point-3.0.0"
-          sources."string-width-4.2.3"
-          sources."wrap-ansi-7.0.0"
           sources."yargs-17.7.2"
           sources."yargs-parser-21.1.1"
         ];
@@ -10257,11 +10244,7 @@ in
       sources."@sentry/core-8.27.0"
       sources."@sentry/node-8.27.0"
       sources."@sentry/opentelemetry-8.27.0"
-      (sources."@sentry/profiling-node-8.27.0" // {
-        dependencies = [
-          sources."detect-libc-2.0.3"
-        ];
-      })
+      sources."@sentry/profiling-node-8.27.0"
       sources."@sentry/types-8.27.0"
       sources."@sentry/utils-8.27.0"
       sources."@sideway/address-4.1.5"
@@ -10477,16 +10460,16 @@ in
       sources."cli-cursor-5.0.0"
       sources."cli-highlight-2.1.11"
       sources."cli-spinners-2.9.2"
-      sources."cli-truncate-4.0.0"
-      sources."clipboardy-4.0.0"
-      (sources."cliui-7.0.4" // {
+      (sources."cli-truncate-4.0.0" // {
         dependencies = [
-          sources."emoji-regex-8.0.0"
-          sources."is-fullwidth-code-point-3.0.0"
-          sources."string-width-4.2.3"
-          sources."wrap-ansi-7.0.0"
+          sources."ansi-regex-6.0.1"
+          sources."emoji-regex-10.4.0"
+          sources."string-width-7.2.0"
+          sources."strip-ansi-7.1.0"
         ];
       })
+      sources."clipboardy-4.0.0"
+      sources."cliui-7.0.4"
       sources."clone-1.0.4"
       sources."clone-deep-4.0.1"
       sources."cluster-key-slot-1.1.2"
@@ -10540,7 +10523,7 @@ in
       sources."destr-2.0.3"
       sources."destroy-1.2.0"
       sources."detect-browser-5.3.0"
-      sources."detect-libc-1.0.3"
+      sources."detect-libc-2.0.3"
       sources."discontinuous-range-1.0.0"
       sources."doctrine-3.0.0"
       sources."dotenv-16.4.5"
@@ -10554,7 +10537,7 @@ in
       sources."ecdsa-sig-formatter-1.0.11"
       sources."ee-first-1.1.1"
       sources."electron-to-chromium-1.5.13"
-      sources."emoji-regex-10.4.0"
+      sources."emoji-regex-8.0.0"
       sources."encodeurl-1.0.2"
       sources."encoding-0.1.13"
       sources."end-of-stream-1.4.4"
@@ -10670,7 +10653,7 @@ in
       sources."is-directory-0.3.1"
       sources."is-docker-3.0.0"
       sources."is-extglob-2.1.1"
-      sources."is-fullwidth-code-point-4.0.0"
+      sources."is-fullwidth-code-point-3.0.0"
       sources."is-glob-4.0.3"
       sources."is-inside-container-1.0.0"
       sources."is-interactive-1.0.0"
@@ -10767,7 +10750,16 @@ in
       })
       sources."lines-and-columns-1.2.4"
       sources."listhen-1.7.2"
-      sources."listr2-8.2.4"
+      (sources."listr2-8.2.4" // {
+        dependencies = [
+          sources."ansi-regex-6.0.1"
+          sources."ansi-styles-6.2.1"
+          sources."emoji-regex-10.4.0"
+          sources."string-width-7.2.0"
+          sources."strip-ansi-7.1.0"
+          sources."wrap-ansi-9.0.0"
+        ];
+      })
       sources."locate-path-6.0.0"
       sources."lodash.debounce-4.0.8"
       sources."lodash.defaults-4.2.0"
@@ -10787,22 +10779,22 @@ in
         dependencies = [
           sources."ansi-regex-6.0.1"
           sources."ansi-styles-6.2.1"
+          sources."emoji-regex-10.4.0"
           sources."is-fullwidth-code-point-5.0.0"
           sources."slice-ansi-7.1.0"
+          sources."string-width-7.2.0"
           sources."strip-ansi-7.1.0"
+          sources."wrap-ansi-9.0.0"
         ];
       })
       (sources."logkitty-0.7.1" // {
         dependencies = [
           sources."camelcase-5.3.1"
           sources."cliui-6.0.0"
-          sources."emoji-regex-8.0.0"
           sources."find-up-4.1.0"
-          sources."is-fullwidth-code-point-3.0.0"
           sources."locate-path-5.0.0"
           sources."p-limit-2.3.0"
           sources."p-locate-4.1.0"
-          sources."string-width-4.2.3"
           sources."wrap-ansi-6.2.0"
           sources."y18n-4.0.3"
           sources."yargs-15.4.1"
@@ -10828,14 +10820,10 @@ in
           sources."ci-info-2.0.0"
           sources."cliui-8.0.1"
           sources."debug-2.6.9"
-          sources."emoji-regex-8.0.0"
           sources."hermes-estree-0.23.0"
           sources."hermes-parser-0.23.0"
-          sources."is-fullwidth-code-point-3.0.0"
           sources."ms-2.0.0"
-          sources."string-width-4.2.3"
           sources."utf-8-validate-5.0.10"
-          sources."wrap-ansi-7.0.0"
           sources."ws-7.5.10"
           sources."yargs-17.7.2"
           sources."yargs-parser-21.1.1"
@@ -11017,10 +11005,6 @@ in
       (sources."react-native-0.75.2" // {
         dependencies = [
           sources."cliui-8.0.1"
-          sources."emoji-regex-8.0.0"
-          sources."is-fullwidth-code-point-3.0.0"
-          sources."string-width-4.2.3"
-          sources."wrap-ansi-7.0.0"
           sources."ws-6.2.3"
           sources."yargs-17.7.2"
           sources."yargs-parser-21.1.1"
@@ -11103,6 +11087,7 @@ in
       (sources."slice-ansi-5.0.0" // {
         dependencies = [
           sources."ansi-styles-6.2.1"
+          sources."is-fullwidth-code-point-4.0.0"
         ];
       })
       sources."sonic-boom-2.8.0"
@@ -11133,18 +11118,8 @@ in
       sources."stream-shift-1.0.3"
       sources."streamsearch-1.1.0"
       sources."strict-uri-encode-2.0.0"
-      (sources."string-width-7.2.0" // {
-        dependencies = [
-          sources."ansi-regex-6.0.1"
-          sources."strip-ansi-7.1.0"
-        ];
-      })
-      (sources."string-width-cjs-4.2.3" // {
-        dependencies = [
-          sources."emoji-regex-8.0.0"
-          sources."is-fullwidth-code-point-3.0.0"
-        ];
-      })
+      sources."string-width-4.2.3"
+      sources."string-width-cjs-4.2.3"
       (sources."string_decoder-1.1.1" // {
         dependencies = [
           sources."safe-buffer-5.1.2"
@@ -11219,20 +11194,8 @@ in
       sources."which-2.0.2"
       sources."which-module-2.0.1"
       sources."word-wrap-1.2.5"
-      (sources."wrap-ansi-9.0.0" // {
-        dependencies = [
-          sources."ansi-regex-6.0.1"
-          sources."ansi-styles-6.2.1"
-          sources."strip-ansi-7.1.0"
-        ];
-      })
-      (sources."wrap-ansi-cjs-7.0.0" // {
-        dependencies = [
-          sources."emoji-regex-8.0.0"
-          sources."is-fullwidth-code-point-3.0.0"
-          sources."string-width-4.2.3"
-        ];
-      })
+      sources."wrap-ansi-7.0.0"
+      sources."wrap-ansi-cjs-7.0.0"
       sources."wrappy-1.0.2"
       (sources."write-file-atomic-2.4.3" // {
         dependencies = [
@@ -11244,13 +11207,7 @@ in
       sources."y18n-5.0.8"
       sources."yallist-3.1.1"
       sources."yaml-2.5.0"
-      (sources."yargs-16.2.0" // {
-        dependencies = [
-          sources."emoji-regex-8.0.0"
-          sources."is-fullwidth-code-point-3.0.0"
-          sources."string-width-4.2.3"
-        ];
-      })
+      sources."yargs-16.2.0"
       sources."yargs-parser-20.2.9"
       sources."yocto-queue-0.1.0"
       sources."zod-3.23.8"
@@ -11350,13 +11307,9 @@ in
           sources."tslib-2.7.0"
         ];
       })
-      (sources."@azure/msal-browser-3.22.0" // {
-        dependencies = [
-          sources."@azure/msal-common-14.14.2"
-        ];
-      })
-      sources."@azure/msal-common-14.14.1"
-      sources."@azure/msal-node-2.13.0"
+      sources."@azure/msal-browser-3.22.0"
+      sources."@azure/msal-common-14.14.2"
+      sources."@azure/msal-node-2.13.1"
       (sources."@azure/storage-blob-12.24.0" // {
         dependencies = [
           sources."@azure/abort-controller-1.1.0"
