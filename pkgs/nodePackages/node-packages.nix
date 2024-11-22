@@ -1390,40 +1390,40 @@ let
         sha512 = "d9zaMRSTIKDLhctzH12MtXvJKSSUhaHcjV+2Z+GK+EEY7XKpP5yR4x+N3TAcHTcu963nIr+TMcCb4DBCYX1z6Q==";
       };
     };
-    "@graphql-tools/executor-1.3.3" = {
+    "@graphql-tools/executor-1.3.4" = {
       name = "_at_graphql-tools_slash_executor";
       packageName = "@graphql-tools/executor";
-      version = "1.3.3";
+      version = "1.3.4";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@graphql-tools/executor/-/executor-1.3.3.tgz";
-        sha512 = "lpkgokF6vjGHNluANOTsWoSM0vuvUuVpjY1810tvM6Vlyoq2tJ+nmqweGbMsq/GLhmZQP1lY/nOkj2zPJXLWiw==";
+        url = "https://registry.npmjs.org/@graphql-tools/executor/-/executor-1.3.4.tgz";
+        sha512 = "2XbOp1K8iQiDgExbBTrhjqQX1bh5lHbri3nEaL8pCiiirZTLs4C1a1mizGcQzkeciF41paWEfBu1M1mOewtFAQ==";
       };
     };
-    "@graphql-tools/merge-9.0.9" = {
+    "@graphql-tools/merge-9.0.10" = {
       name = "_at_graphql-tools_slash_merge";
       packageName = "@graphql-tools/merge";
-      version = "9.0.9";
+      version = "9.0.10";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@graphql-tools/merge/-/merge-9.0.9.tgz";
-        sha512 = "w9yaU7UMRQvtkTYZHo+c7cS7LO7rqc2H6g3k0aUs8VE9YlFYG1bYdxvEPM5bloaoVqr5TmbqIZqzl1CHeJKilQ==";
+        url = "https://registry.npmjs.org/@graphql-tools/merge/-/merge-9.0.10.tgz";
+        sha512 = "sU+b6ZmKtGnqHq8S+VI5UmjZVHWzT+b+QtCsJUEXckCKdq1P3JmwIT8+8DVxSQlh1dzpiVq37EOcJrEYOBZtBA==";
       };
     };
-    "@graphql-tools/schema-10.0.8" = {
+    "@graphql-tools/schema-10.0.9" = {
       name = "_at_graphql-tools_slash_schema";
       packageName = "@graphql-tools/schema";
-      version = "10.0.8";
+      version = "10.0.9";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@graphql-tools/schema/-/schema-10.0.8.tgz";
-        sha512 = "jkCSq+DdT6Rf/MN3oVz250AMFWZO0E5kh0C2K+kJfS80iBW7/7kLjiSbKz+WD9UBtsJPW2zyzKYC4ylU4jmnLw==";
+        url = "https://registry.npmjs.org/@graphql-tools/schema/-/schema-10.0.9.tgz";
+        sha512 = "R/sPRLJnEHg/F7owvH1zLbfXxqrEgFyr/qSjsG1q+gWhCrxbo/+c2DVjeZEZ2/AKCLllDHTD5TOU2Y5sZGNxZg==";
       };
     };
-    "@graphql-tools/utils-10.5.6" = {
+    "@graphql-tools/utils-10.6.0" = {
       name = "_at_graphql-tools_slash_utils";
       packageName = "@graphql-tools/utils";
-      version = "10.5.6";
+      version = "10.6.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@graphql-tools/utils/-/utils-10.5.6.tgz";
-        sha512 = "JAC44rhbLzXUHiltceyEpWkxmX4e45Dfg19wRFoA9EbDxQVbOzVNF76eEECdg0J1owFsJwfLqCwz7/6xzrovOw==";
+        url = "https://registry.npmjs.org/@graphql-tools/utils/-/utils-10.6.0.tgz";
+        sha512 = "bqSn2ekSNwFVZprY6YsrHkqPA7cPLNKxiPlEzS1djhfvx4q9tx7Uwc5dnLp3SSnKinJ8dJk9FA5sxNcKjCM44w==";
       };
     };
     "@graphql-typed-document-node/core-3.2.0" = {
@@ -1795,22 +1795,22 @@ let
         sha512 = "8xUcGlmBuuR9PSW88eqJuW49EmcQeiplDlsvN1N++1Bw6KV4lXlBKlJn5TM8lxctGNpewtzlIUimQFIlMqm9aw==";
       };
     };
-    "@kadena/hd-wallet-0.5.0" = {
+    "@kadena/hd-wallet-0.6.0" = {
       name = "_at_kadena_slash_hd-wallet";
       packageName = "@kadena/hd-wallet";
-      version = "0.5.0";
+      version = "0.6.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@kadena/hd-wallet/-/hd-wallet-0.5.0.tgz";
-        sha512 = "MQdYJeeMgWTmyJn4RB6a0xLkELzqrQB/5O3jeE3yDDHhPJtl+26sRwNsNMT4GvJiIGGbB7GpOOCbhzkmS3iEyg==";
+        url = "https://registry.npmjs.org/@kadena/hd-wallet/-/hd-wallet-0.6.0.tgz";
+        sha512 = "idIdJ+aWCK2laUioCEiSBs354r1QAgszi9p3Mt3ElbQM9MgafmwSJX8kVnSLTZcP1pPAqvryVetAuzzu97ETyA==";
       };
     };
-    "@kadena/kadena-cli-1.3.6" = {
+    "@kadena/kadena-cli-1.3.7" = {
       name = "_at_kadena_slash_kadena-cli";
       packageName = "@kadena/kadena-cli";
-      version = "1.3.6";
+      version = "1.3.7";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@kadena/kadena-cli/-/kadena-cli-1.3.6.tgz";
-        sha512 = "d3YTnbJafhIqXwl9pOcdRSa42PvlFgD6OeNCz/+xRoVleEiNxQeqLPiAxjEXnymEjQB7S5uRhbTFR/ZO0fQ/Cw==";
+        url = "https://registry.npmjs.org/@kadena/kadena-cli/-/kadena-cli-1.3.7.tgz";
+        sha512 = "kbBALnIGL/swmM4R4BJpdQPEbz4ABKXl/kEawqJ7+mUCA6DZ3JO3hzylObzCJPAt5wVwbY9jIdUIF5sNcDQ1rA==";
       };
     };
     "@kadena/pactjs-0.4.3" = {
@@ -2659,58 +2659,49 @@ let
         sha512 = "Z3/Fsz1yr904dduJD0NpiyRHhRYHdcnyh73FZWiV+/qhWi83wNJ3NWolYqCEN+ZWsUz2TWwajJggcRE9r1zUYg==";
       };
     };
-    "@sentry/core-8.39.0" = {
+    "@sentry/core-8.40.0" = {
       name = "_at_sentry_slash_core";
       packageName = "@sentry/core";
-      version = "8.39.0";
+      version = "8.40.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@sentry/core/-/core-8.39.0.tgz";
-        sha512 = "rg2mHtwdCaedqub7bd+ht08vZgtwPO7el5m5sPNeb7V75GcQwSziu6G02vGxCBCsAHpoFn1A+0JLEajaYzZI7w==";
+        url = "https://registry.npmjs.org/@sentry/core/-/core-8.40.0.tgz";
+        sha512 = "u/U2CJpG/+SmTR2bPM4ZZoPYTJAOUuxzj/0IURnvI0v9+rNu939J/fzrO9huA5IJVxS5TiYykhQm7o6I3Zuo3Q==";
       };
     };
-    "@sentry/node-8.39.0" = {
+    "@sentry/node-8.40.0" = {
       name = "_at_sentry_slash_node";
       packageName = "@sentry/node";
-      version = "8.39.0";
+      version = "8.40.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@sentry/node/-/node-8.39.0.tgz";
-        sha512 = "poQBV1OG5XdESQQNT/qQzrcPBEsQIuK3kz7cE7MVOcdTqjfWGC+gVYMMjvfBrZ+A1jdLolepMLnEG80OzvHoNA==";
+        url = "https://registry.npmjs.org/@sentry/node/-/node-8.40.0.tgz";
+        sha512 = "UO1jWuO+z4DnK2NYCvQQfpNbfFYgeV//cNS83QIPkj9hPIEOpUR2DAfPmI9bj2Yjdh7WE8IN9Can9xDcfJquMQ==";
       };
     };
-    "@sentry/opentelemetry-8.39.0" = {
+    "@sentry/opentelemetry-8.40.0" = {
       name = "_at_sentry_slash_opentelemetry";
       packageName = "@sentry/opentelemetry";
-      version = "8.39.0";
+      version = "8.40.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@sentry/opentelemetry/-/opentelemetry-8.39.0.tgz";
-        sha512 = "ZnZ6zpyRPOUR6LwmvXqXK6XXDfjIXIRoX1ZVy44ZqN3XQL1Cg5n5sp0W/8T0qpKVyyEkE+AphLI/EGyp/gQLfQ==";
+        url = "https://registry.npmjs.org/@sentry/opentelemetry/-/opentelemetry-8.40.0.tgz";
+        sha512 = "kW9EBRESjNnBdj2zCqNMv8x0VIsmiALIOMpi25Dpm38IKtRg/ckQ7YOWx1lnT3iOFebO2GXUvOu+gPmuzIY2WQ==";
       };
     };
-    "@sentry/profiling-node-8.39.0" = {
+    "@sentry/profiling-node-8.40.0" = {
       name = "_at_sentry_slash_profiling-node";
       packageName = "@sentry/profiling-node";
-      version = "8.39.0";
+      version = "8.40.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@sentry/profiling-node/-/profiling-node-8.39.0.tgz";
-        sha512 = "0/xHWEkB40IRUs5p3UAdIw28HxG9j1vprWno9SLKXZ2e7zNpz7MZmtOKdiXcs/uzOCcxW069sENf9uue5WqOxA==";
+        url = "https://registry.npmjs.org/@sentry/profiling-node/-/profiling-node-8.40.0.tgz";
+        sha512 = "JktVHpy33iIEuOs75gDRCUavDyxsJESQK5Fyi7T3SpL9ymwhlcPesJ6Y4x7GscX5yNJAIOnWbVblcxA0QrxDxg==";
       };
     };
-    "@sentry/types-8.39.0" = {
+    "@sentry/types-8.40.0" = {
       name = "_at_sentry_slash_types";
       packageName = "@sentry/types";
-      version = "8.39.0";
+      version = "8.40.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@sentry/types/-/types-8.39.0.tgz";
-        sha512 = "/n1bGkbJcSLZQpzd1Oksi8LFAMbcO8j/d+N8mcXS74GuhGgkxQiEwHF2CKTz6SHt8J4hrlyzqIwVzCevUOxZ2Q==";
-      };
-    };
-    "@sentry/utils-8.39.0" = {
-      name = "_at_sentry_slash_utils";
-      packageName = "@sentry/utils";
-      version = "8.39.0";
-      src = fetchurl {
-        url = "https://registry.npmjs.org/@sentry/utils/-/utils-8.39.0.tgz";
-        sha512 = "pIBnr/cROds92CcYWBW3z1zFH4uJkMPL2AxEv/ZcLg/NTb1Okz/ZaDP+NMzUfzriYvFBOFk0wPk0h5sYx6Umqw==";
+        url = "https://registry.npmjs.org/@sentry/types/-/types-8.40.0.tgz";
+        sha512 = "nuCf3U3deolPM9BjNnwCc33UtFl9ec15/r74ngAkNccn+A2JXdIAsDkGJMO/9mgSFykLe1QyeJ0pQFRisCGOiA==";
       };
     };
     "@sinclair/typebox-0.27.8" = {
@@ -5143,13 +5134,13 @@ let
         sha512 = "3PYnM29RFXwvAN6Pc/scUfkI7RwhQ/xqyLUyPNlXUp9S40zI8nup9tUSrTLSVnWGBN38FNiGWbwZOB6uR4OGdw==";
       };
     };
-    "flow-parser-0.254.1" = {
+    "flow-parser-0.254.2" = {
       name = "flow-parser";
       packageName = "flow-parser";
-      version = "0.254.1";
+      version = "0.254.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/flow-parser/-/flow-parser-0.254.1.tgz";
-        sha512 = "dyUrQD6ZyI4PVQppj8PP5kj6BVThK8FprAcPCnJNLIZM7zcAL6/xGS1EE1haWv2HcO/dHy7GSwOAO59uaffjYw==";
+        url = "https://registry.npmjs.org/flow-parser/-/flow-parser-0.254.2.tgz";
+        sha512 = "18xCQaVdKNCY0TAEhwUdk1HmRdgsPSraWwu0Zifqo5M4Ubi9LjWTAdlfBFb07Os+fQ9TmzxlyZN6OxK0m9xrBw==";
       };
     };
     "foreground-child-3.3.0" = {
@@ -8986,13 +8977,13 @@ let
         sha512 = "Ne2YiiGN8bmrmJJEuTWTLJR32nh/JdL1+PSicowtNb0WFpn59GK8/lfD61bVtzguz7b3PBt74nxpv/Pw5po5Rg==";
       };
     };
-    "typescript-5.6.3" = {
+    "typescript-5.7.2" = {
       name = "typescript";
       packageName = "typescript";
-      version = "5.6.3";
+      version = "5.7.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/typescript/-/typescript-5.6.3.tgz";
-        sha512 = "hjcS1mhfuyi4WW8IWtjP7brDrG2cuDZukyrYrSauoXGNgx0S7zceP07adYkJycEr56BOUTNPzbInooiN3fn1qw==";
+        url = "https://registry.npmjs.org/typescript/-/typescript-5.7.2.tgz";
+        sha512 = "i5t66RHxDvVN40HfDd1PsEThGNnlMCMT3jMUuoh9/0TaqWevNontacunWyN02LA9/fIbEWlcHZcgTKb9QoaLfg==";
       };
     };
     "ufo-1.5.4" = {
@@ -9469,10 +9460,10 @@ in
   "@kadena/graph" = nodeEnv.buildNodePackage {
     name = "_at_kadena_slash_graph";
     packageName = "@kadena/graph";
-    version = "2.0.0";
+    version = "2.0.1";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@kadena/graph/-/graph-2.0.0.tgz";
-      sha512 = "MCStizbPVc+wMCPavE3ZArIzeBJk5Rvxl3SEHhszHIRDZ7KY+ipT/XI0T+Od4Smg6dnbjceTv3nkKpngKa42ww==";
+      url = "https://registry.npmjs.org/@kadena/graph/-/graph-2.0.1.tgz";
+      sha512 = "QjEqt7NiT9h7HUwnRPWiltKCNMGqr+2dla0vT/qrO+WmeYI07ivh/lEr1ectmNWQsAT5TOI3PSZpUW3wILl1Rg==";
     };
     dependencies = [
       sources."@ampproject/remapping-2.3.0"
@@ -9670,10 +9661,10 @@ in
       sources."@eslint-community/regexpp-4.12.1"
       sources."@eslint/eslintrc-2.1.4"
       sources."@eslint/js-8.57.1"
-      sources."@graphql-tools/executor-1.3.3"
-      sources."@graphql-tools/merge-9.0.9"
-      sources."@graphql-tools/schema-10.0.8"
-      sources."@graphql-tools/utils-10.5.6"
+      sources."@graphql-tools/executor-1.3.4"
+      sources."@graphql-tools/merge-9.0.10"
+      sources."@graphql-tools/schema-10.0.9"
+      sources."@graphql-tools/utils-10.6.0"
       sources."@graphql-typed-document-node/core-3.2.0"
       sources."@graphql-yoga/logger-2.0.0"
       sources."@graphql-yoga/subscription-5.0.1"
@@ -9696,7 +9687,6 @@ in
       (sources."@istanbuljs/load-nyc-config-1.1.0" // {
         dependencies = [
           sources."argparse-1.0.10"
-          sources."camelcase-5.3.1"
           sources."find-up-4.1.0"
           sources."js-yaml-3.14.1"
           sources."locate-path-5.0.0"
@@ -9710,12 +9700,7 @@ in
       sources."@jest/environment-29.7.0"
       sources."@jest/fake-timers-29.7.0"
       sources."@jest/schemas-29.6.3"
-      (sources."@jest/transform-29.7.0" // {
-        dependencies = [
-          sources."signal-exit-3.0.7"
-          sources."write-file-atomic-4.0.2"
-        ];
-      })
+      sources."@jest/transform-29.7.0"
       sources."@jest/types-29.6.3"
       sources."@jridgewell/gen-mapping-0.3.5"
       sources."@jridgewell/resolve-uri-3.1.2"
@@ -9749,18 +9734,14 @@ in
       sources."@nodelib/fs.stat-2.0.5"
       sources."@nodelib/fs.walk-1.2.8"
       sources."@opentelemetry/api-1.9.0"
-      sources."@opentelemetry/api-logs-0.52.1"
+      sources."@opentelemetry/api-logs-0.54.2"
       sources."@opentelemetry/context-async-hooks-1.28.0"
       (sources."@opentelemetry/core-1.28.0" // {
         dependencies = [
           sources."@opentelemetry/semantic-conventions-1.27.0"
         ];
       })
-      (sources."@opentelemetry/instrumentation-0.54.2" // {
-        dependencies = [
-          sources."@opentelemetry/api-logs-0.54.2"
-        ];
-      })
+      sources."@opentelemetry/instrumentation-0.54.2"
       sources."@opentelemetry/instrumentation-amqplib-0.43.0"
       sources."@opentelemetry/instrumentation-connect-0.40.0"
       (sources."@opentelemetry/instrumentation-dataloader-0.12.0" // {
@@ -9894,6 +9875,7 @@ in
       sources."@prisma/get-platform-5.22.0"
       (sources."@prisma/instrumentation-5.19.1" // {
         dependencies = [
+          sources."@opentelemetry/api-logs-0.52.1"
           sources."@opentelemetry/instrumentation-0.52.1"
         ];
       })
@@ -9904,6 +9886,7 @@ in
           sources."@jest/types-26.6.2"
           sources."@types/yargs-15.0.19"
           sources."pretty-format-26.6.2"
+          sources."react-is-17.0.2"
           sources."ws-6.2.3"
         ];
       })
@@ -9969,12 +9952,11 @@ in
       sources."@react-native/normalize-colors-0.76.3"
       sources."@react-native/virtualized-lists-0.76.3"
       sources."@repeaterjs/repeater-3.0.6"
-      sources."@sentry/core-8.39.0"
-      sources."@sentry/node-8.39.0"
-      sources."@sentry/opentelemetry-8.39.0"
-      sources."@sentry/profiling-node-8.39.0"
-      sources."@sentry/types-8.39.0"
-      sources."@sentry/utils-8.39.0"
+      sources."@sentry/core-8.40.0"
+      sources."@sentry/node-8.40.0"
+      sources."@sentry/opentelemetry-8.40.0"
+      sources."@sentry/profiling-node-8.40.0"
+      sources."@sentry/types-8.40.0"
       sources."@sinclair/typebox-0.27.8"
       sources."@sinonjs/commons-3.0.1"
       sources."@sinonjs/fake-timers-10.3.0"
@@ -10162,7 +10144,7 @@ in
       })
       sources."caller-path-2.0.0"
       sources."callsites-3.1.0"
-      sources."camelcase-6.3.0"
+      sources."camelcase-5.3.1"
       sources."caniuse-lite-1.0.30001683"
       sources."chalk-4.1.2"
       (sources."chokidar-3.6.0" // {
@@ -10183,7 +10165,7 @@ in
           sources."mkdirp-1.0.4"
         ];
       })
-      sources."ci-info-2.0.0"
+      sources."ci-info-3.9.0"
       sources."citty-0.1.6"
       sources."cjs-module-lexer-1.4.1"
       sources."cli-cursor-5.0.0"
@@ -10329,7 +10311,7 @@ in
       sources."flat-cache-3.2.0"
       sources."flatted-3.3.2"
       sources."flow-enums-runtime-0.0.6"
-      sources."flow-parser-0.254.1"
+      sources."flow-parser-0.254.2"
       sources."foreground-child-3.3.0"
       sources."fresh-0.5.2"
       sources."fs-monkey-1.0.6"
@@ -10413,12 +10395,12 @@ in
       sources."jest-message-util-29.7.0"
       sources."jest-mock-29.7.0"
       sources."jest-regex-util-29.6.3"
-      (sources."jest-util-29.7.0" // {
+      sources."jest-util-29.7.0"
+      (sources."jest-validate-29.7.0" // {
         dependencies = [
-          sources."ci-info-3.9.0"
+          sources."camelcase-6.3.0"
         ];
       })
-      sources."jest-validate-29.7.0"
       (sources."jest-worker-29.7.0" // {
         dependencies = [
           sources."supports-color-8.1.1"
@@ -10430,7 +10412,12 @@ in
       sources."jsbi-4.3.0"
       sources."jsc-android-250231.0.0"
       sources."jsc-safe-url-0.2.4"
-      sources."jscodeshift-0.14.0"
+      (sources."jscodeshift-0.14.0" // {
+        dependencies = [
+          sources."signal-exit-3.0.7"
+          sources."write-file-atomic-2.4.3"
+        ];
+      })
       sources."jsesc-3.0.2"
       sources."json-bigint-patch-0.0.8"
       sources."json-buffer-3.0.1"
@@ -10509,12 +10496,12 @@ in
       sources."merge-stream-2.0.0"
       (sources."metro-0.81.0" // {
         dependencies = [
+          sources."ci-info-2.0.0"
           sources."cliui-8.0.1"
           sources."debug-2.6.9"
           sources."hermes-estree-0.24.0"
           sources."hermes-parser-0.24.0"
           sources."ms-2.0.0"
-          sources."source-map-0.5.7"
           sources."utf-8-validate-5.0.10"
           sources."ws-7.5.10"
           sources."yargs-17.7.2"
@@ -10540,16 +10527,8 @@ in
       sources."metro-minify-terser-0.81.0"
       sources."metro-resolver-0.81.0"
       sources."metro-runtime-0.81.0"
-      (sources."metro-source-map-0.81.0" // {
-        dependencies = [
-          sources."source-map-0.5.7"
-        ];
-      })
-      (sources."metro-symbolicate-0.81.0" // {
-        dependencies = [
-          sources."source-map-0.5.7"
-        ];
-      })
+      sources."metro-source-map-0.81.0"
+      sources."metro-symbolicate-0.81.0"
       sources."metro-transform-plugins-0.81.0"
       sources."metro-transform-worker-0.81.0"
       sources."micromatch-4.0.8"
@@ -10668,7 +10647,6 @@ in
       (sources."pretty-format-29.7.0" // {
         dependencies = [
           sources."ansi-styles-5.2.0"
-          sources."react-is-18.3.1"
         ];
       })
       sources."priorityqueuejs-2.0.0"
@@ -10694,7 +10672,7 @@ in
           sources."ws-7.5.10"
         ];
       })
-      sources."react-is-17.0.2"
+      sources."react-is-18.3.1"
       (sources."react-native-0.76.3" // {
         dependencies = [
           sources."cliui-8.0.1"
@@ -10713,7 +10691,11 @@ in
       sources."readdirp-3.6.0"
       sources."readline-1.3.0"
       sources."real-require-0.1.0"
-      sources."recast-0.21.5"
+      (sources."recast-0.21.5" // {
+        dependencies = [
+          sources."source-map-0.6.1"
+        ];
+      })
       sources."redis-errors-1.2.0"
       sources."redis-parser-3.0.0"
       sources."regenerate-1.4.2"
@@ -10779,8 +10761,12 @@ in
         ];
       })
       sources."sonic-boom-2.8.0"
-      sources."source-map-0.6.1"
-      sources."source-map-support-0.5.21"
+      sources."source-map-0.5.7"
+      (sources."source-map-support-0.5.21" // {
+        dependencies = [
+          sources."source-map-0.6.1"
+        ];
+      })
       sources."split-on-first-1.1.0"
       sources."split2-4.2.0"
       sources."sprintf-js-1.0.3"
@@ -10844,7 +10830,7 @@ in
       sources."type-check-0.4.0"
       sources."type-detect-4.0.8"
       sources."type-fest-0.20.2"
-      sources."typescript-5.6.3"
+      sources."typescript-5.7.2"
       sources."ufo-1.5.4"
       sources."uint8arrays-3.1.1"
       sources."uncrypto-0.1.3"
@@ -10878,7 +10864,7 @@ in
       sources."wrap-ansi-7.0.0"
       sources."wrap-ansi-cjs-7.0.0"
       sources."wrappy-1.0.2"
-      (sources."write-file-atomic-2.4.3" // {
+      (sources."write-file-atomic-4.0.2" // {
         dependencies = [
           sources."signal-exit-3.0.7"
         ];
@@ -11227,13 +11213,7 @@ in
       (sources."@istanbuljs/load-nyc-config-1.1.0" // {
         dependencies = [
           sources."argparse-1.0.10"
-          sources."camelcase-5.3.1"
-          sources."find-up-4.1.0"
           sources."js-yaml-3.14.1"
-          sources."locate-path-5.0.0"
-          sources."p-locate-4.1.0"
-          sources."path-exists-4.0.0"
-          sources."resolve-from-5.0.0"
         ];
       })
       sources."@istanbuljs/schema-0.1.3"
@@ -11244,8 +11224,6 @@ in
       (sources."@jest/transform-29.7.0" // {
         dependencies = [
           sources."chalk-4.1.2"
-          sources."signal-exit-3.0.7"
-          sources."write-file-atomic-4.0.2"
         ];
       })
       (sources."@jest/types-29.6.3" // {
@@ -11263,10 +11241,18 @@ in
       sources."@kadena/client-1.15.0"
       sources."@kadena/client-utils-0.11.0"
       sources."@kadena/cryptography-utils-0.4.4"
-      sources."@kadena/hd-wallet-0.5.0"
-      sources."@kadena/kadena-cli-1.3.6"
+      sources."@kadena/hd-wallet-0.6.0"
+      sources."@kadena/kadena-cli-1.3.7"
       sources."@kadena/pactjs-0.4.3"
-      sources."@kadena/pactjs-cli-1.15.0"
+      (sources."@kadena/pactjs-cli-1.15.0" // {
+        dependencies = [
+          sources."brace-expansion-2.0.1"
+          sources."glob-10.4.5"
+          sources."minimatch-9.0.5"
+          sources."mkdirp-1.0.4"
+          sources."rimraf-5.0.10"
+        ];
+      })
       sources."@kadena/pactjs-generator-1.15.0"
       sources."@kadena/types-0.7.0"
       sources."@netlify/blobs-8.1.0"
@@ -11287,6 +11273,7 @@ in
           sources."@types/yargs-15.0.19"
           sources."chalk-4.1.2"
           sources."pretty-format-26.6.2"
+          sources."react-is-17.0.2"
         ];
       })
       (sources."@react-native-community/cli-tools-15.1.2" // {
@@ -11311,7 +11298,6 @@ in
           sources."ora-5.4.1"
           sources."p-limit-3.1.0"
           sources."p-locate-5.0.0"
-          sources."path-exists-4.0.0"
           sources."restore-cursor-3.1.0"
           sources."signal-exit-3.0.7"
           sources."strip-final-newline-2.0.0"
@@ -11326,14 +11312,7 @@ in
           sources."hermes-parser-0.25.1"
         ];
       })
-      (sources."@react-native/codegen-0.76.3" // {
-        dependencies = [
-          sources."brace-expansion-1.1.11"
-          sources."glob-7.2.3"
-          sources."minimatch-3.1.2"
-          sources."mkdirp-0.5.6"
-        ];
-      })
+      sources."@react-native/codegen-0.76.3"
       (sources."@react-native/community-cli-plugin-0.76.3" // {
         dependencies = [
           sources."chalk-4.1.2"
@@ -11363,6 +11342,7 @@ in
       sources."@react-native/virtualized-lists-0.76.3"
       (sources."@rollup/plugin-commonjs-25.0.8" // {
         dependencies = [
+          sources."brace-expansion-2.0.1"
           sources."glob-8.1.0"
           sources."minimatch-5.1.6"
         ];
@@ -11489,7 +11469,7 @@ in
       sources."binary-extensions-2.3.0"
       sources."bl-5.1.0"
       sources."blakejs-1.2.1"
-      sources."brace-expansion-2.0.1"
+      sources."brace-expansion-1.1.11"
       sources."braces-3.0.3"
       sources."browserslist-4.24.2"
       sources."bser-2.1.1"
@@ -11501,7 +11481,7 @@ in
       sources."caller-callsite-2.0.0"
       sources."caller-path-2.0.0"
       sources."callsites-2.0.0"
-      sources."camelcase-6.3.0"
+      sources."camelcase-5.3.1"
       sources."caniuse-lite-1.0.30001683"
       sources."chalk-5.3.0"
       sources."chardet-0.7.0"
@@ -11515,16 +11495,14 @@ in
       })
       (sources."chromium-edge-launcher-0.2.0" // {
         dependencies = [
-          sources."brace-expansion-1.1.11"
           sources."escape-string-regexp-4.0.0"
-          sources."glob-7.2.3"
           sources."is-docker-2.2.1"
           sources."is-wsl-2.2.0"
-          sources."minimatch-3.1.2"
+          sources."mkdirp-1.0.4"
           sources."rimraf-3.0.2"
         ];
       })
-      sources."ci-info-2.0.0"
+      sources."ci-info-3.9.0"
       sources."citty-0.1.6"
       sources."cli-cursor-4.0.0"
       sources."cli-spinners-2.9.2"
@@ -11638,9 +11616,9 @@ in
         ];
       })
       sources."find-cache-dir-2.1.0"
-      sources."find-up-3.0.0"
+      sources."find-up-4.1.0"
       sources."flow-enums-runtime-0.0.6"
-      sources."flow-parser-0.254.1"
+      sources."flow-parser-0.254.2"
       sources."foreground-child-3.3.0"
       sources."fresh-0.5.2"
       sources."fs-monkey-1.0.6"
@@ -11652,7 +11630,7 @@ in
       sources."get-package-type-0.1.0"
       sources."get-port-please-3.1.2"
       sources."get-stream-8.0.1"
-      sources."glob-10.4.5"
+      sources."glob-7.2.3"
       sources."glob-parent-5.1.2"
       sources."globals-11.12.0"
       sources."graceful-fs-4.2.11"
@@ -11674,7 +11652,11 @@ in
       sources."idb-keyval-6.2.1"
       sources."ieee754-1.2.1"
       sources."image-size-1.1.1"
-      sources."import-fresh-2.0.0"
+      (sources."import-fresh-2.0.0" // {
+        dependencies = [
+          sources."resolve-from-3.0.0"
+        ];
+      })
       sources."imurmurhash-0.1.4"
       sources."inflight-1.0.6"
       sources."inherits-2.0.4"
@@ -11723,11 +11705,11 @@ in
       (sources."jest-util-29.7.0" // {
         dependencies = [
           sources."chalk-4.1.2"
-          sources."ci-info-3.9.0"
         ];
       })
       (sources."jest-validate-29.7.0" // {
         dependencies = [
+          sources."camelcase-6.3.0"
           sources."chalk-4.1.2"
         ];
       })
@@ -11745,6 +11727,8 @@ in
       (sources."jscodeshift-0.14.0" // {
         dependencies = [
           sources."chalk-4.1.2"
+          sources."signal-exit-3.0.7"
+          sources."write-file-atomic-2.4.3"
         ];
       })
       sources."jsesc-3.0.2"
@@ -11769,7 +11753,7 @@ in
         ];
       })
       sources."listhen-1.9.0"
-      sources."locate-path-3.0.0"
+      sources."locate-path-5.0.0"
       sources."lodash.debounce-4.0.8"
       sources."lodash.defaults-4.2.0"
       sources."lodash.includes-4.3.0"
@@ -11800,11 +11784,11 @@ in
       (sources."metro-0.81.0" // {
         dependencies = [
           sources."chalk-4.1.2"
+          sources."ci-info-2.0.0"
           sources."debug-2.6.9"
           sources."hermes-estree-0.24.0"
           sources."hermes-parser-0.24.0"
           sources."ms-2.0.0"
-          sources."source-map-0.5.7"
           sources."ws-7.5.10"
         ];
       })
@@ -11827,16 +11811,8 @@ in
       sources."metro-minify-terser-0.81.0"
       sources."metro-resolver-0.81.0"
       sources."metro-runtime-0.81.0"
-      (sources."metro-source-map-0.81.0" // {
-        dependencies = [
-          sources."source-map-0.5.7"
-        ];
-      })
-      (sources."metro-symbolicate-0.81.0" // {
-        dependencies = [
-          sources."source-map-0.5.7"
-        ];
-      })
+      sources."metro-source-map-0.81.0"
+      sources."metro-symbolicate-0.81.0"
       sources."metro-transform-plugins-0.81.0"
       sources."metro-transform-worker-0.81.0"
       sources."micro-packed-0.3.2"
@@ -11845,10 +11821,10 @@ in
       sources."mime-db-1.52.0"
       sources."mime-types-2.1.35"
       sources."mimic-fn-2.1.0"
-      sources."minimatch-9.0.5"
+      sources."minimatch-3.1.2"
       sources."minimist-1.2.8"
       sources."minipass-7.1.2"
-      sources."mkdirp-1.0.4"
+      sources."mkdirp-0.5.6"
       sources."mlly-1.7.3"
       sources."moo-0.5.2"
       sources."ms-2.1.2"
@@ -11864,12 +11840,7 @@ in
       sources."nocache-3.0.4"
       sources."node-abort-controller-3.1.1"
       sources."node-addon-api-7.1.1"
-      (sources."node-dir-0.1.17" // {
-        dependencies = [
-          sources."brace-expansion-1.1.11"
-          sources."minimatch-3.1.2"
-        ];
-      })
+      sources."node-dir-0.1.17"
       sources."node-fetch-2.7.0"
       sources."node-fetch-native-1.6.4"
       sources."node-forge-1.3.1"
@@ -11907,12 +11878,12 @@ in
       })
       sources."os-tmpdir-1.0.2"
       sources."p-limit-2.3.0"
-      sources."p-locate-3.0.0"
+      sources."p-locate-4.1.0"
       sources."p-try-2.2.0"
       sources."package-json-from-dist-1.0.1"
       sources."parse-json-4.0.0"
       sources."parseurl-1.3.3"
-      sources."path-exists-3.0.0"
+      sources."path-exists-4.0.0"
       sources."path-is-absolute-1.0.1"
       sources."path-key-3.1.1"
       sources."path-parse-1.0.7"
@@ -11925,13 +11896,19 @@ in
       sources."pino-abstract-transport-0.5.0"
       sources."pino-std-serializers-4.0.0"
       sources."pirates-4.0.6"
-      sources."pkg-dir-3.0.0"
+      (sources."pkg-dir-3.0.0" // {
+        dependencies = [
+          sources."find-up-3.0.0"
+          sources."locate-path-3.0.0"
+          sources."p-locate-3.0.0"
+          sources."path-exists-3.0.0"
+        ];
+      })
       sources."pkg-types-1.2.1"
       sources."prettier-3.2.5"
       (sources."pretty-format-29.7.0" // {
         dependencies = [
           sources."ansi-styles-5.2.0"
-          sources."react-is-18.3.1"
         ];
       })
       sources."priorityqueuejs-2.0.0"
@@ -11953,15 +11930,11 @@ in
           sources."ws-7.5.10"
         ];
       })
-      sources."react-is-17.0.2"
+      sources."react-is-18.3.1"
       (sources."react-native-0.76.3" // {
         dependencies = [
-          sources."brace-expansion-1.1.11"
           sources."chalk-4.1.2"
           sources."commander-12.1.0"
-          sources."glob-7.2.3"
-          sources."minimatch-3.1.2"
-          sources."mkdirp-0.5.6"
         ];
       })
       sources."react-refresh-0.14.2"
@@ -11971,6 +11944,7 @@ in
       sources."real-require-0.1.0"
       (sources."recast-0.21.5" // {
         dependencies = [
+          sources."source-map-0.6.1"
           sources."tslib-2.8.1"
         ];
       })
@@ -11985,14 +11959,14 @@ in
       sources."regjsparser-0.12.0"
       sources."require-directory-2.1.1"
       sources."resolve-1.22.8"
-      sources."resolve-from-3.0.0"
+      sources."resolve-from-5.0.0"
       (sources."restore-cursor-4.0.0" // {
         dependencies = [
           sources."signal-exit-3.0.7"
         ];
       })
       sources."ret-0.1.15"
-      sources."rimraf-5.0.10"
+      sources."rimraf-2.6.3"
       sources."rollup-4.27.3"
       sources."run-async-3.0.0"
       sources."safe-buffer-5.2.1"
@@ -12032,8 +12006,12 @@ in
       sources."sisteransi-1.0.5"
       sources."slash-3.0.0"
       sources."sonic-boom-2.8.0"
-      sources."source-map-0.6.1"
-      sources."source-map-support-0.5.21"
+      sources."source-map-0.5.7"
+      (sources."source-map-support-0.5.21" // {
+        dependencies = [
+          sources."source-map-0.6.1"
+        ];
+      })
       sources."split-on-first-1.1.0"
       sources."split2-4.2.0"
       sources."sprintf-js-1.0.3"
@@ -12066,26 +12044,13 @@ in
       sources."supports-color-7.2.0"
       sources."supports-preserve-symlinks-flag-1.0.0"
       sources."system-architecture-0.1.0"
-      (sources."temp-0.8.4" // {
-        dependencies = [
-          sources."brace-expansion-1.1.11"
-          sources."glob-7.2.3"
-          sources."minimatch-3.1.2"
-          sources."rimraf-2.6.3"
-        ];
-      })
+      sources."temp-0.8.4"
       (sources."terser-5.36.0" // {
         dependencies = [
           sources."commander-2.20.3"
         ];
       })
-      (sources."test-exclude-6.0.0" // {
-        dependencies = [
-          sources."brace-expansion-1.1.11"
-          sources."glob-7.2.3"
-          sources."minimatch-3.1.2"
-        ];
-      })
+      sources."test-exclude-6.0.0"
       sources."thread-stream-0.15.2"
       sources."throat-5.0.0"
       (sources."through2-2.0.5" // {
@@ -12136,7 +12101,7 @@ in
       sources."wrap-ansi-6.2.0"
       sources."wrap-ansi-cjs-7.0.0"
       sources."wrappy-1.0.2"
-      (sources."write-file-atomic-2.4.3" // {
+      (sources."write-file-atomic-4.0.2" // {
         dependencies = [
           sources."signal-exit-3.0.7"
         ];
