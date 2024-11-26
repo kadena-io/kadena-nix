@@ -3010,13 +3010,13 @@ let
         sha512 = "ahz2g6/oqbKalW9sPv6L2iRbhLnojxjYWspAqhjvqSWBgGebEJT5GvRmk0QXPj3sbC6rU0GTQjPLQkmR8CObvA==";
       };
     };
-    "@types/node-22.9.4" = {
+    "@types/node-22.10.0" = {
       name = "_at_types_slash_node";
       packageName = "@types/node";
-      version = "22.9.4";
+      version = "22.10.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-22.9.4.tgz";
-        sha512 = "d9RWfoR7JC/87vj7n+PVTzGg9hDyuFjir3RxUHbjFSKNd9mpxbxwMEyaCim/ddCmy4IuW7HjTzF3g9p3EtWEOg==";
+        url = "https://registry.npmjs.org/@types/node/-/node-22.10.0.tgz";
+        sha512 = "XC70cRZVElFHfIUB40FgZOBbgJYFKKMa5nb9lxcwYstFG/Mi+/Y0bGS+rs6Dmhmkpq4pnNiLiuZAbc02YCOnmA==";
       };
     };
     "@types/node-forge-1.3.11" = {
@@ -3235,13 +3235,13 @@ let
         sha512 = "vdeb03bD8VzJUL6ZtzRYsFMq1eZQcM3EAzT0a3st59dyLfJ0wq+tKMpmGH7HlB7waD858UWgfIcudbPFsbzVdw==";
       };
     };
-    "@walletconnect/jsonrpc-ws-connection-1.0.14" = {
+    "@walletconnect/jsonrpc-ws-connection-1.0.15" = {
       name = "_at_walletconnect_slash_jsonrpc-ws-connection";
       packageName = "@walletconnect/jsonrpc-ws-connection";
-      version = "1.0.14";
+      version = "1.0.15";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@walletconnect/jsonrpc-ws-connection/-/jsonrpc-ws-connection-1.0.14.tgz";
-        sha512 = "Jsl6fC55AYcbkNVkwNM6Jo+ufsuCQRqViOQ8ZBPH9pRREHH9welbBiszuTLqEJiQcO/6XfFDl6bzCJIkrEi8XA==";
+        url = "https://registry.npmjs.org/@walletconnect/jsonrpc-ws-connection/-/jsonrpc-ws-connection-1.0.15.tgz";
+        sha512 = "YDnzBTJ1R1+mh6GVQzFXnCoWkNRGwk7PRsmHFIBUXPG47tWdhIjyotXNuRAeplgBMlKRVbtCS/Okgc/1H6kk1w==";
       };
     };
     "@walletconnect/keyvaluestorage-1.1.1" = {
@@ -6511,13 +6511,13 @@ let
         sha512 = "KpNARQA3Iwv+jTA0utUVVbrh+Jlrr1Fv0e56GGzAFOXN7dk/FviaDW8LHmK52DlcH4WP2n6gI8vN1aesBFgo9w==";
       };
     };
-    "magic-string-0.30.13" = {
+    "magic-string-0.30.14" = {
       name = "magic-string";
       packageName = "magic-string";
-      version = "0.30.13";
+      version = "0.30.14";
       src = fetchurl {
-        url = "https://registry.npmjs.org/magic-string/-/magic-string-0.30.13.tgz";
-        sha512 = "8rYBO+MsWkgjDSOvLomYnzhdwEG51olQ4zL5KXnNJWV5MNmrb4rTZdrtkhxjnD/QyZUqR/Z/XDsUs/4ej2nx0g==";
+        url = "https://registry.npmjs.org/magic-string/-/magic-string-0.30.14.tgz";
+        sha512 = "5c99P1WKTed11ZC0HMJOj6CDIue6F8ySu+bJL+85q1zBEIY8IklrJ1eiKC2NDRh3Ct3FcvmJPyQHb9erXMTJNw==";
       };
     };
     "make-dir-2.1.0" = {
@@ -9031,6 +9031,15 @@ let
         sha512 = "ve2KP6f/JnbPBFyobGHuerC9g1FYGn/F8n1LWTwNxCEzd6IfqTwUQcNXgEtmmQ6DlRrC1hrSrBnCZPokRrDHjw==";
       };
     };
+    "undici-types-6.20.0" = {
+      name = "undici-types";
+      packageName = "undici-types";
+      version = "6.20.0";
+      src = fetchurl {
+        url = "https://registry.npmjs.org/undici-types/-/undici-types-6.20.0.tgz";
+        sha512 = "Ny6QZ2Nju20vw1SRHe3d9jVu6gJ+4e3+MMpqu7pqE5HT6WsTSlce++GQmK5UXS8mzV8DSYHrQH+Xrf2jVcuKNg==";
+      };
+    };
     "unenv-1.10.0" = {
       name = "unenv";
       packageName = "unenv";
@@ -9469,10 +9478,10 @@ in
   "@kadena/graph" = nodeEnv.buildNodePackage {
     name = "_at_kadena_slash_graph";
     packageName = "@kadena/graph";
-    version = "2.0.1";
+    version = "2.0.2";
     src = fetchurl {
-      url = "https://registry.npmjs.org/@kadena/graph/-/graph-2.0.1.tgz";
-      sha512 = "QjEqt7NiT9h7HUwnRPWiltKCNMGqr+2dla0vT/qrO+WmeYI07ivh/lEr1ectmNWQsAT5TOI3PSZpUW3wILl1Rg==";
+      url = "https://registry.npmjs.org/@kadena/graph/-/graph-2.0.2.tgz";
+      sha512 = "D64iNlUko8qVvnJ/1A4jnsyvFv2em+6s/6ZjKUXKQz/CBg0aXILIuTZIRUW6M0B4ATC4aYpwTS6W3EG63rNL1A==";
     };
     dependencies = [
       sources."@ampproject/remapping-2.3.0"
@@ -10000,7 +10009,7 @@ in
       sources."@types/istanbul-lib-report-3.0.3"
       sources."@types/istanbul-reports-3.0.4"
       sources."@types/mysql-2.15.26"
-      sources."@types/node-22.9.4"
+      sources."@types/node-22.10.0"
       sources."@types/node-forge-1.3.11"
       sources."@types/pg-8.6.1"
       sources."@types/pg-pool-2.0.6"
@@ -10049,7 +10058,7 @@ in
           sources."tslib-1.14.1"
         ];
       })
-      (sources."@walletconnect/jsonrpc-ws-connection-1.0.14" // {
+      (sources."@walletconnect/jsonrpc-ws-connection-1.0.15" // {
         dependencies = [
           sources."utf-8-validate-5.0.10"
           sources."ws-7.5.10"
@@ -10847,7 +10856,7 @@ in
       sources."ufo-1.5.4"
       sources."uint8arrays-3.1.1"
       sources."uncrypto-0.1.3"
-      sources."undici-types-6.19.8"
+      sources."undici-types-6.20.0"
       sources."unenv-1.10.0"
       sources."unicode-canonical-property-names-ecmascript-2.0.1"
       sources."unicode-match-property-ecmascript-2.0.0"
@@ -11422,7 +11431,7 @@ in
       sources."@walletconnect/jsonrpc-provider-1.0.13"
       sources."@walletconnect/jsonrpc-types-1.0.3"
       sources."@walletconnect/jsonrpc-utils-1.0.8"
-      (sources."@walletconnect/jsonrpc-ws-connection-1.0.14" // {
+      (sources."@walletconnect/jsonrpc-ws-connection-1.0.15" // {
         dependencies = [
           sources."ws-7.5.10"
         ];
@@ -11782,7 +11791,7 @@ in
       sources."log-symbols-5.1.0"
       sources."loose-envify-1.4.0"
       sources."lru-cache-10.4.3"
-      sources."magic-string-0.30.13"
+      sources."magic-string-0.30.14"
       (sources."make-dir-2.1.0" // {
         dependencies = [
           sources."semver-5.7.2"
