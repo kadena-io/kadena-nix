@@ -2686,13 +2686,13 @@ let
         sha512 = "1SUf/Cg2GzGDyaf15aR9St9TWlb+XvbZXWpDx8YKs7MLzMH/BCeopv+y9vzrzgkfykCGuWOlSu3mZhj2+FQcrg==";
       };
     };
-    "@op-engineering/op-sqlite-11.2.13" = {
+    "@op-engineering/op-sqlite-11.2.14" = {
       name = "_at_op-engineering_slash_op-sqlite";
       packageName = "@op-engineering/op-sqlite";
-      version = "11.2.13";
+      version = "11.2.14";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@op-engineering/op-sqlite/-/op-sqlite-11.2.13.tgz";
-        sha512 = "9oTe2L8f5cw38YiruHc3j1KTFnrZ1hTtfSuFOsDPH4s6OyZ/7VAQq2KC7Tjb6WcUWmMmHpCw331ueNd0xuPl8A==";
+        url = "https://registry.npmjs.org/@op-engineering/op-sqlite/-/op-sqlite-11.2.14.tgz";
+        sha512 = "Lb9rZTC2Wk+Hls7qjl+/9VwtcvDn2M7iMqe+3Hjzp0buowPCyN52UTabLQStAAibTXF6nBSCVRs74FBtA25Xsg==";
       };
     };
     "@opentelemetry/api-1.9.0" = {
@@ -3748,40 +3748,40 @@ let
         sha512 = "ZMCSfztDBqwotkl848ODgVcAmN4OItEWDCkshcKz0/W6gGSQayuuCtWV/MlodFivAZD793d6UgANd6wCXUfrIw==";
       };
     };
-    "@sentry/core-8.50.0" = {
+    "@sentry/core-8.51.0" = {
       name = "_at_sentry_slash_core";
       packageName = "@sentry/core";
-      version = "8.50.0";
+      version = "8.51.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@sentry/core/-/core-8.50.0.tgz";
-        sha512 = "q71m8Ha9YGwqn4Gd7sWvcFTRgbHXxEfU4QeIFtwMBpwHfq2Q+9koiF8DOoOHqIEOsnlvZWRQgGggIOdHzajnVw==";
+        url = "https://registry.npmjs.org/@sentry/core/-/core-8.51.0.tgz";
+        sha512 = "Go0KxCYLw+OBIlLSv5YsYX+x9NW43fNVcyB6rhkSp2Q5Zme3tAE6KtZFvyu4SO7G/903wisW5Q6qV6UuK/ee4A==";
       };
     };
-    "@sentry/node-8.50.0" = {
+    "@sentry/node-8.51.0" = {
       name = "_at_sentry_slash_node";
       packageName = "@sentry/node";
-      version = "8.50.0";
+      version = "8.51.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@sentry/node/-/node-8.50.0.tgz";
-        sha512 = "I9eGIdcoWKVy4O8a1f2t0jGVTdN1z9McxbGW8aWwDE5Vd9gpuNjFh9qGapmBEPzysWBX8rjsemDdSa3TcijJMw==";
+        url = "https://registry.npmjs.org/@sentry/node/-/node-8.51.0.tgz";
+        sha512 = "KfXk3QaeNXmJgUUCDAwZW7cdZ+1GvRXNdTPLpWbAKGaNulAeimck5fGGL8FRMSF0sMz6BT6Ku7u6DUaZTtbB7w==";
       };
     };
-    "@sentry/opentelemetry-8.50.0" = {
+    "@sentry/opentelemetry-8.51.0" = {
       name = "_at_sentry_slash_opentelemetry";
       packageName = "@sentry/opentelemetry";
-      version = "8.50.0";
+      version = "8.51.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@sentry/opentelemetry/-/opentelemetry-8.50.0.tgz";
-        sha512 = "uAZjAMPAulFHL88ThK2k+XPx2QzvZ/I7e7sP1In28Tb/yLH0mi+51AUH+zcnLELIPC86m1aDYl8uwYcP6tV4dA==";
+        url = "https://registry.npmjs.org/@sentry/opentelemetry/-/opentelemetry-8.51.0.tgz";
+        sha512 = "SvH/rl/P+S7EKXIZA6kq2HzFYfXKQx8Ytgx4WZJV+katsdaDay24QtycYE+PaqbotAkV6MOMECEb8a9XXttQcg==";
       };
     };
-    "@sentry/profiling-node-8.50.0" = {
+    "@sentry/profiling-node-8.51.0" = {
       name = "_at_sentry_slash_profiling-node";
       packageName = "@sentry/profiling-node";
-      version = "8.50.0";
+      version = "8.51.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/@sentry/profiling-node/-/profiling-node-8.50.0.tgz";
-        sha512 = "HyjW6burG+oBoLK+O9TMT5kPRKeOzM/rwchBfqqjht1babrApMeuycz1nFlJbYC38D0AK0jufjN4kwiU+Z+pNQ==";
+        url = "https://registry.npmjs.org/@sentry/profiling-node/-/profiling-node-8.51.0.tgz";
+        sha512 = "5tyb48P+wxmeqjk8vMv35aXoHQOV9InO3dQI1lLdQl5AzeHMyl+7CfW+LKc31u3V6Uqgr0ZAAafH1xS7gickSw==";
       };
     };
     "@sideway/address-4.1.5" = {
@@ -4538,15 +4538,6 @@ let
       src = fetchurl {
         url = "https://registry.npmjs.org/@types/node/-/node-18.19.71.tgz";
         sha512 = "evXpcgtZm8FY4jqBSN8+DmOTcVkkvTmAayeo4Wf3m1xAruyVGzGuDh/Fb/WWX2yLItUiho42ozyJjB0dw//Tkw==";
-      };
-    };
-    "@types/node-20.12.14" = {
-      name = "_at_types_slash_node";
-      packageName = "@types/node";
-      version = "20.12.14";
-      src = fetchurl {
-        url = "https://registry.npmjs.org/@types/node/-/node-20.12.14.tgz";
-        sha512 = "scnD59RpYD91xngrQQLGkE+6UrHUPzeKZWhhjBSa3HSkwjbQc38+q3RoIVEwxQGRw3M+j5hpNAM+lgV3cVormg==";
       };
     };
     "@types/node-20.17.14" = {
@@ -5899,13 +5890,13 @@ let
         sha512 = "WDtdLmJvAuNNPzByAYpRo2rF1Mmradw6gvWsQKf63476DDXmomT9zUiGypLcG4ibIM67vhAj8jJRdbmEws2Aqw==";
       };
     };
-    "bun-types-1.1.45" = {
+    "bun-types-1.2.0" = {
       name = "bun-types";
       packageName = "bun-types";
-      version = "1.1.45";
+      version = "1.2.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/bun-types/-/bun-types-1.1.45.tgz";
-        sha512 = "8NT3BYwkyO8nzTG1k+q86VEvucw7s5W1fjRIGs0Y6/XNbTZn+mHEU39LFnuDLj4UmGCMpWCQtXUhLd6cko49Ww==";
+        url = "https://registry.npmjs.org/bun-types/-/bun-types-1.2.0.tgz";
+        sha512 = "KEaJxyZfbV/c4eyG0vyehDpYmBGreNiQbZIqvVHJwZ4BmeuWlNZ7EAzMN2Zcd7ailmS/tGVW0BgYbGf+lGEpWw==";
       };
     };
     "busboy-1.6.0" = {
@@ -6646,13 +6637,13 @@ let
         sha512 = "uV2QOWP2nWzsy2aMp8aRibhi9dlzF5Hgh5SHaB9OiTGEyDTiJJyx0uy51QXdyWbtAHNua4XJzUKca3OzKUd3vA==";
       };
     };
-    "crossws-0.3.1" = {
+    "crossws-0.3.2" = {
       name = "crossws";
       packageName = "crossws";
-      version = "0.3.1";
+      version = "0.3.2";
       src = fetchurl {
-        url = "https://registry.npmjs.org/crossws/-/crossws-0.3.1.tgz";
-        sha512 = "HsZgeVYaG+b5zA+9PbIPGq4+J/CJynJuearykPsXx4V/eMhyQ5EDVg3Ak2FBZtVXCiOLu/U7IiwDHTr9MA+IKw==";
+        url = "https://registry.npmjs.org/crossws/-/crossws-0.3.2.tgz";
+        sha512 = "S2PpQHRcgYABOS2465b34wqTOn5dbLL+iSvyweJYGGFLDsKq88xrjDXUiEhfYkhWZq1HuS6of3okRHILbkrqxw==";
       };
     };
     "crypt-0.0.2" = {
@@ -8383,13 +8374,13 @@ let
         sha512 = "n918QV6TF7xTjb9ASnozgsr4ydMc08c+x4eRAWKxxWVwSnzdP2xeN2zw1ljIzRD0ccSCNoBajGDKwcZkJDitPA==";
       };
     };
-    "h3-1.13.1" = {
+    "h3-1.14.0" = {
       name = "h3";
       packageName = "h3";
-      version = "1.13.1";
+      version = "1.14.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/h3/-/h3-1.13.1.tgz";
-        sha512 = "u/z6Z4YY+ANZ05cRRfsFJadTBrNA6e3jxdU+AN5UCbZSZEUwgHiwjvUEe0k1NoQmAvQmETwr+xB5jd7mhCJuIQ==";
+        url = "https://registry.npmjs.org/h3/-/h3-1.14.0.tgz";
+        sha512 = "ao22eiONdgelqcnknw0iD645qW0s9NnrJHr5OBz4WOMdBdycfSas1EQf1wXRsm+PcB2Yoj43pjBPwqIpJQTeWg==";
       };
     };
     "has-flag-3.0.0" = {
@@ -10813,13 +10804,13 @@ let
         sha512 = "WNLf5Sd8oZxOm+TzppcYk8gVOgP+l58xNy58D0nbUnOxOWRWvlcCV4kUF7ltmI6PsrLl/BgKEyS4mqsGChFN0w==";
       };
     };
-    "napi-build-utils-1.0.2" = {
+    "napi-build-utils-2.0.0" = {
       name = "napi-build-utils";
       packageName = "napi-build-utils";
-      version = "1.0.2";
+      version = "2.0.0";
       src = fetchurl {
-        url = "https://registry.npmjs.org/napi-build-utils/-/napi-build-utils-1.0.2.tgz";
-        sha512 = "ONmRUqK7zj7DWX0D9ADe03wbwOBZxNAfF20PlGfCWQcD3+/MakShIHrMqx9YwPTfxDdF1zLeL+RGZiR9kGMLdg==";
+        url = "https://registry.npmjs.org/napi-build-utils/-/napi-build-utils-2.0.0.tgz";
+        sha512 = "GEbrYkbfF7MoNaoh2iGG84Mnf/WZfB0GdGEsM8wz7Expx/LlWf5U8t9nvJKXSp3qr5IsEbK04cBGhol/KwOsWA==";
       };
     };
     "natural-compare-1.4.0" = {
@@ -11893,13 +11884,13 @@ let
         sha512 = "i/hbxIE9803Alj/6ytL7UHQxRvZkI9O4Sy+J3HGc4F4oo/2eQAjTSNJ0bfxyse3bH0nuVesCk+3IRLaMtG3H6w==";
       };
     };
-    "prebuild-install-7.1.2" = {
+    "prebuild-install-7.1.3" = {
       name = "prebuild-install";
       packageName = "prebuild-install";
-      version = "7.1.2";
+      version = "7.1.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/prebuild-install/-/prebuild-install-7.1.2.tgz";
-        sha512 = "UnNke3IQb6sgarcZIDU3gbMeTp/9SSU1DAIkil7PrqG1vZlBtY5msYccSKSHDqa3hNg436IXK+SNImReuA1wEQ==";
+        url = "https://registry.npmjs.org/prebuild-install/-/prebuild-install-7.1.3.tgz";
+        sha512 = "8Mf2cbV7x1cXPUILADGI3wuhfqWvtiLA1iclTDbFRZkgRQS0NqsPZphna9V+HyTEadheuPmjaJMsbzKQFOzLug==";
       };
     };
     "prelude-ls-1.2.1" = {
@@ -15430,7 +15421,7 @@ in
       sources."@nodelib/fs.walk-1.2.8"
       sources."@npmcli/fs-1.1.1"
       sources."@npmcli/move-file-1.1.2"
-      sources."@op-engineering/op-sqlite-11.2.13"
+      sources."@op-engineering/op-sqlite-11.2.14"
       sources."@opentelemetry/api-1.9.0"
       sources."@opentelemetry/api-logs-0.56.0"
       sources."@opentelemetry/context-async-hooks-1.30.1"
@@ -15507,7 +15498,12 @@ in
           sources."@react-native/dev-middleware-0.77.0"
           sources."@react-native/gradle-plugin-0.77.0"
           sources."@react-native/js-polyfills-0.77.0"
-          sources."@react-native/metro-babel-transformer-0.77.0"
+          (sources."@react-native/metro-babel-transformer-0.77.0" // {
+            dependencies = [
+              sources."hermes-estree-0.25.1"
+              sources."hermes-parser-0.25.1"
+            ];
+          })
           sources."@react-native/normalize-colors-0.77.0"
           sources."@react-native/virtualized-lists-0.77.0"
           sources."@types/react-18.3.18"
@@ -15549,7 +15545,11 @@ in
             ];
           })
           sources."react-native-0.77.0"
-          sources."recast-0.23.9"
+          (sources."recast-0.23.9" // {
+            dependencies = [
+              sources."source-map-0.6.1"
+            ];
+          })
           sources."regenerator-runtime-0.13.11"
           sources."source-map-0.5.7"
           sources."supports-color-8.1.1"
@@ -15742,10 +15742,10 @@ in
         ];
       })
       sources."@segment/loosely-validate-event-2.0.0"
-      sources."@sentry/core-8.50.0"
-      sources."@sentry/node-8.50.0"
-      sources."@sentry/opentelemetry-8.50.0"
-      sources."@sentry/profiling-node-8.50.0"
+      sources."@sentry/core-8.51.0"
+      sources."@sentry/node-8.51.0"
+      sources."@sentry/opentelemetry-8.51.0"
+      sources."@sentry/profiling-node-8.51.0"
       sources."@sideway/address-4.1.5"
       sources."@sideway/formula-3.0.1"
       sources."@sideway/pinpoint-2.0.0"
@@ -16079,12 +16079,7 @@ in
       sources."buffer-fill-1.0.0"
       sources."buffer-from-1.1.2"
       sources."bufferutil-4.0.9"
-      (sources."bun-types-1.1.45" // {
-        dependencies = [
-          sources."@types/node-20.12.14"
-          sources."undici-types-5.26.5"
-        ];
-      })
+      sources."bun-types-1.2.0"
       sources."busboy-1.6.0"
       sources."bytes-3.1.2"
       (sources."cacache-15.3.0" // {
@@ -16187,7 +16182,7 @@ in
       sources."cross-fetch-3.1.8"
       sources."cross-inspect-1.0.1"
       sources."cross-spawn-7.0.6"
-      sources."crossws-0.3.1"
+      sources."crossws-0.3.2"
       sources."crypt-0.0.2"
       sources."crypto-js-4.2.0"
       sources."crypto-random-string-2.0.0"
@@ -16419,7 +16414,7 @@ in
       sources."graphql-scalars-1.23.0"
       sources."graphql-ws-5.16.2"
       sources."graphql-yoga-5.3.1"
-      sources."h3-1.13.1"
+      sources."h3-1.14.0"
       sources."has-flag-4.0.0"
       sources."has-symbols-1.1.0"
       sources."has-unicode-2.0.1"
@@ -16830,7 +16825,7 @@ in
       })
       sources."nan-2.19.0"
       sources."nanoid-3.3.8"
-      sources."napi-build-utils-1.0.2"
+      sources."napi-build-utils-2.0.0"
       sources."natural-compare-1.4.0"
       (sources."nearley-2.20.1" // {
         dependencies = [
@@ -16976,7 +16971,7 @@ in
       sources."postgres-date-1.0.7"
       sources."postgres-interval-1.2.0"
       sources."postgres-range-1.1.4"
-      sources."prebuild-install-7.1.2"
+      sources."prebuild-install-7.1.3"
       sources."prelude-ls-1.2.1"
       sources."prettier-3.2.5"
       sources."pretty-bytes-5.6.0"
@@ -18177,7 +18172,7 @@ in
           sources."rimraf-3.0.2"
         ];
       })
-      sources."@op-engineering/op-sqlite-11.2.13"
+      sources."@op-engineering/op-sqlite-11.2.14"
       sources."@opentelemetry/api-1.9.0"
       sources."@planetscale/database-1.19.0"
       sources."@prisma/client-6.2.1"
@@ -18198,17 +18193,18 @@ in
           sources."@react-native/dev-middleware-0.77.0"
           sources."@react-native/gradle-plugin-0.77.0"
           sources."@react-native/js-polyfills-0.77.0"
-          sources."@react-native/metro-babel-transformer-0.77.0"
+          (sources."@react-native/metro-babel-transformer-0.77.0" // {
+            dependencies = [
+              sources."hermes-estree-0.25.1"
+              sources."hermes-parser-0.25.1"
+            ];
+          })
           sources."@react-native/normalize-colors-0.77.0"
           sources."@react-native/virtualized-lists-0.77.0"
           sources."@types/react-18.3.18"
           sources."ast-types-0.16.1"
           sources."brace-expansion-1.1.11"
-          (sources."chalk-4.1.2" // {
-            dependencies = [
-              sources."supports-color-7.2.0"
-            ];
-          })
+          sources."chalk-4.1.2"
           sources."ci-info-2.0.0"
           sources."commander-12.1.0"
           sources."debug-2.6.9"
@@ -18247,7 +18243,11 @@ in
             ];
           })
           sources."react-native-0.77.0"
-          sources."recast-0.23.9"
+          (sources."recast-0.23.9" // {
+            dependencies = [
+              sources."source-map-0.6.1"
+            ];
+          })
           sources."regenerator-runtime-0.13.11"
           sources."source-map-0.5.7"
           sources."supports-color-8.1.1"
@@ -18902,12 +18902,7 @@ in
       sources."buffer-fill-1.0.0"
       sources."buffer-from-1.1.2"
       sources."bufferutil-4.0.9"
-      (sources."bun-types-1.1.45" // {
-        dependencies = [
-          sources."@types/node-20.12.14"
-          sources."undici-types-5.26.5"
-        ];
-      })
+      sources."bun-types-1.2.0"
       sources."bytes-3.1.2"
       (sources."cacache-15.3.0" // {
         dependencies = [
@@ -19008,7 +19003,7 @@ in
       })
       sources."cross-fetch-3.1.8"
       sources."cross-spawn-7.0.6"
-      sources."crossws-0.3.1"
+      sources."crossws-0.3.2"
       sources."crypt-0.0.2"
       sources."crypto-js-4.2.0"
       sources."crypto-random-string-2.0.0"
@@ -19225,7 +19220,7 @@ in
       sources."gopd-1.2.0"
       sources."graceful-fs-4.2.11"
       sources."graphql-16.10.0"
-      sources."h3-1.13.1"
+      sources."h3-1.14.0"
       sources."has-flag-4.0.0"
       sources."has-symbols-1.1.0"
       sources."has-unicode-2.0.1"
@@ -19631,7 +19626,7 @@ in
       })
       sources."nan-2.19.0"
       sources."nanoid-3.3.8"
-      sources."napi-build-utils-1.0.2"
+      sources."napi-build-utils-2.0.0"
       (sources."nearley-2.20.1" // {
         dependencies = [
           sources."commander-2.20.3"
@@ -19766,7 +19761,7 @@ in
       sources."postgres-date-1.0.7"
       sources."postgres-interval-1.2.0"
       sources."postgres-range-1.1.4"
-      sources."prebuild-install-7.1.2"
+      sources."prebuild-install-7.1.3"
       sources."prettier-3.2.5"
       sources."pretty-bytes-5.6.0"
       (sources."pretty-format-29.7.0" // {
