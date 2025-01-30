@@ -5467,13 +5467,13 @@ let
         sha512 = "kNOjDqAh7px0XWNI+4QbzoiR/nTkHAWNud2uvnJquD1/x5a7EQZMJT0AczqK0Qn67oY/TTQ1LbUKajZpp3I9tQ==";
       };
     };
-    "aws-crt-1.25.2" = {
+    "aws-crt-1.25.3" = {
       name = "aws-crt";
       packageName = "aws-crt";
-      version = "1.25.2";
+      version = "1.25.3";
       src = fetchurl {
-        url = "https://registry.npmjs.org/aws-crt/-/aws-crt-1.25.2.tgz";
-        sha512 = "BxwERbufeUb0p6HNgdhV17bKVTn0vUa9o47kOnZEW5ihbLOzVdPKy9pl8MDLXjLn5QpnuxRSsrbn81rkL/9eRw==";
+        url = "https://registry.npmjs.org/aws-crt/-/aws-crt-1.25.3.tgz";
+        sha512 = "MWV2Yy08xxAZqMJiFE1ZwSrVNq2Hy54SK4ooUx2Ts6DlDzdAizSfgoEKkh7ifyo7j5RVXu3924zAPjC8FBLiSg==";
       };
     };
     "aws-ssl-profiles-1.1.2" = {
@@ -15949,7 +15949,7 @@ in
       sources."asynckit-0.4.0"
       sources."at-least-node-1.0.0"
       sources."atomic-sleep-1.0.0"
-      (sources."aws-crt-1.25.2" // {
+      (sources."aws-crt-1.25.3" // {
         dependencies = [
           sources."buffer-6.0.3"
         ];
@@ -18745,7 +18745,7 @@ in
       sources."asynckit-0.4.0"
       sources."at-least-node-1.0.0"
       sources."atomic-sleep-1.0.0"
-      sources."aws-crt-1.25.2"
+      sources."aws-crt-1.25.3"
       sources."aws-ssl-profiles-1.1.2"
       sources."aws4fetch-1.0.20"
       sources."axios-1.7.9"
